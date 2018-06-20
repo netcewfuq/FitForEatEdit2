@@ -43,7 +43,12 @@
         <activity android:name=".Search_food" />
         <activity android:name=".Burn_1" />
         <activity android:name=".Burn_2" />
-        <activity android:name=".OverBmiActivity"></activity>
+        <activity android:name=".OverBmiActivity" />
+        <activity android:name=".NotificationActivity"></activity>
+
+        <receiver android:name=".MyReceiver" android:process=":remote"/>
+
+
     </application>
 
 </manifest>
