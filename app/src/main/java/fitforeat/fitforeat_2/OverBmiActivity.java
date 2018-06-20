@@ -26,6 +26,7 @@ public class OverBmiActivity extends AppCompatActivity {
     private Calendar currentCalendar, notiCalendar, startCalendar;
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
