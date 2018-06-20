@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b8"
+    tools:context=".Diet_Activity1">
+
+    <ScrollView
+        android:layout_width="368dp"
+        android:layout_height="518dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:id="@+id/mainLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:descendantFocusability="beforeDescendants"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@color/black"
+                android:gravity="center"
+                android:ems="10"
+                android:text="ลดน้ำหนักอย่างไรให้ถูกวิธี"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+
+            <ImageView
+                android:id="@+id/imageView32"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@drawable/girl1"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:ems="10"
+                android:gravity="left"
+                android:text="สาวๆ หลายคนมักจะชอบคิดว่าการลดน้ำหนักคือการอดอาหาร และทำให้ขาดสารอาหารจนทำให้เสียสุขภาพ อยากบอกเลยว่าเป็นความเชื่อที่ผิดมาก เพราะแท้จริงแล้วเราสามารถสร้างเสริมสุขภาพที่ดีจากการลดน้ำหนักได้ ซึ่ง FitForEat ได้รวบรวม 7 วิธีลดน้ำหนักแบบไม่ทำให้เสียสุขภาพมาไว้ที่นี่แล้ว ทำให้ครบนะและเราจะมีสุขภาพดี"
+                android:textColor="@color/white"
+                android:textSize="19dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:ems="10"
+                android:gravity="left"
+                android:text="1.ทานอาหารเช้า"
+                android:background="@color/black"
+                android:textColor="@color/white"
+                android:textSize="19dp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/imageView33"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@drawable/diet1"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:ems="10"
+                android:gravity="left"
+                android:text="การรับประทานอาหารเช้าอย่างตรงเวลา จะทำให้คุณรู้สึกหิวน้อยลงในเวลากลางคืน เพราะมันจะทำให้เมตาบอลิซึมเริ่มต้นทำงานได้ดีในระหว่างวัน แต่คุณจะต้องแน่ใจคุณจะได้รับโปรตีนและไฟเบอร์ที่เพียงพอต่อความต้องการของร่างกาย หากทำได้เช่นนี้จะทำให้ระบบย่อยทำงานได้ดีและทำให้คุณอิ่มนานขึ้น"
+                android:textColor="@color/white"
+                android:textSize="19dp"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:gravity="left"
+                android:background="@color/black"
+                android:text=" 2.ใน 1 มื้อ ควรมีครบ5หมู่ในปริมาณที่เหมาะสม"
+                android:textColor="@color/white"
+                android:textSize="19dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView34"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@drawable/diet2"
+                />
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:ems="10"
+                android:gravity="left"
+                android:text="คาร์โบไฮเดรต โปรตีน และไขมัน เป็นสิ่งจำเป็นสำหรับอาหารทุกมื้อ เพราะเหล่านี้คือแหล่งเชื้อเพลิงหลักสำหรับร่างกายของคุณ ในขณะที่โปรตีนทำหน้าที่ควบคุมปริมาณน้ำตาลและระดับพลังงานให้คงที่ในระยะเวลาที่ยาวนานยิ่งขึ้น สุดท้ายคือไขมันที่ทำหน้าที่ให้พลังงานแก่ร่างกายและช่วยทำให้มื้ออาหารของคุณดูน่ารับประทานมากยิ่งขึ้น แต่ไขมันเหล่านั้นควรจัดอยู่ในประเภทไขมันดี เพื่อให้ร่างกายของคุณสามารถนำไขมันมันเหล่านั้นไปใช้ได้อย่างมีประสิทธิภาพ"
+                android:textColor="@color/white"
+                android:textSize="19dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:ems="10"
+                android:background="@color/black"
+                android:gravity="left"
+                android:text="3.เน้นทานผักเป็นส่วนใหญ่"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView35"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@drawable/diet3"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:ems="10"
+                android:gravity="left"
+                android:text="อาหารที่มาจากพืช อาทิ ผลไม้ ผัก ธัญพืช ถั่ว เหล่านี้ให้ไฟเบอร์และสารต้านอนุมูลอิสระในปริมาณสูง เป็นอาหารที่เหมาะกับการทานในระหว่างลดน้ำหนัก และยังช่วยป้องกันโรคหัวใจและมะเร็งบางชนิด โดย 75 เปอร์เซ็นของมื้ออาหารของคุณ ควรจะเป็นอาหารที่มาจากพืชเหล่านี้ซึ่งเพียงพอต่อความต้องการของร่างกายในแต่ละมื้อของคุณ แน่นอนว่าผักและผลไม้จะให้แคลอรี่ที่ต่ำซึ่งมันดีต่อการลดน้ำหนักของคุณ"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:ems="10"
+                android:gravity="left"
+                android:background="@color/black"
+                android:text="4.ดื่มน้ำเยอะๆ"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView36"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@drawable/diet4"
+                />
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:ems="10"
+                android:gravity="left"
+                android:text="การดื่มน้ำเยอะๆ จะช่วยเติมเต็มความชุ่มชื่นให้กับร่างกายของคุณ และทำให้คุณรู้สึกสดชื่นและมีพลังงานที่ดี ซึ่งคุณสามารถจะเลือกดื่มเป็นน้ำร้อนหรือน้ำเย็นก็ได้ อาจเพิ่มรสชาติให้น้ำดื่มของคุณโดยการเพิ่มน้ำมะนาว หรือน้ำส้มลงไปด้วย หากไม่ชอบ ชาเขียวไม่ใส่น้ำตาลเป็นอีกตัวเลือกหนึ่งที่ดีและสามารถให้คุณประโยชน์อีกมากมายแก่ร่างกายคุณ หากจะให้ประโยชน์แก่ร่างกายคุณมากที่สุดควรดื่มน้ำวันละ 2-3 ลิตร จะดีต่อร่างกายคุณมาก"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:ems="10"
+                android:background="@color/black"
+                android:gravity="left"
+                android:text="5.ควบคุมปริมาณโปรตีน"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView37"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@drawable/diet5"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:ems="10"
+                android:gravity="left"
+                android:text="คนส่วนใหญ่มักไม่ค่อยให้ความสำคัญกับการควบคุมปริมาณโปรตีน ชอบคิดว่าการรับประทานอาหารคลีน จะสามารถรับประทานเยอะแค่ไหนก็ได้จนลืมควบคุมปริมาณโปรตีน จนลืมไปว่าอาหารทุกประเภทมีแคลอรี่อยู่ หากแคลอรี่เหล่านั้นมีมากจนเกินไปและไม่ได้นำไปใช้ เหมือนเหล่านักเล่นเวทแล้วละก็ มันก็จะกลายเป็นไขมันที่สะสมอยู่ในร่างกายได้"                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:ems="10"
+                android:background="@color/black"
+                android:gravity="left"
+                android:text="6.ไม่หิวอย่ากิน หยุดกินเมื่ออิ่ม อย่าใส่อะไรเข้าไปเพิ่ม"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView38"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@drawable/diet55"
+                />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:ems="10"
+                android:gravity="left"
+                android:text="บ่อยครั้งที่ใครหลายคนมักจะเริ่มรับประทานอาหารก่อนที่จะรู้สึกหิว และรับประทานเกินความต้องการของร่างกายและเกินความหิวของตัวเอง นทำให้แคลอรี่กองในตัวมากเกินไป ทางที่ดีเราควรรู้จักยับยั่งชั่งใจ อย่าตามใจมากมากจนเกินไป คุณควรรับประทานอาหารจนอิ่มถึง 80 เปอร์เซ็น แล้วทิ้งระยะเวลาไว้สัก 10 นาที จะทำให้อาหารที่กินก่อนหน้านั้นของคุณได้ย่อยไปก่อน เมื่อน้ำย่อยเริ่มทำงาน แล้วร่างกายคุณปรับตัวได้ คุณจะรู้สึกอิ่มจนไม่อยากทานอะไรต่อ"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:ems="10"
+                android:background="@color/black"
+                android:gravity="left"
+                android:text="7.รู้จักเลือกกิน"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/imageView39"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@drawable/diet9"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:ems="10"
+                android:gravity="left"
+                android:text="การเลือกกินไม่ได้หมายความว่าคุณต้องกลายเป็นคนเรื่องมากกับการกิน แต่คุณควรที่จะคิดและไตร่ตรองให้ดีว่าสิ่งที่คุณกินจะส่งผลดีหรือผลเสียต่อร่างกายของคุณหรือไม่ และถ้าหากคุณห้ามความต้องการของตัวเองไม่ได้ คุณก็ควรที่จะจำกัดมันเอาไว้ในปริมาณที่พอเหมาะ อย่าตามใจปากมากเกินไปจนทำให้คุณต้องมานั่งรู้สึกเสียใจภายหลัง"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TableRow
+        android:id="@+id/tableRow"
+        android:layout_width="0dp"
+        android:layout_height="59dp"
+        android:background="@drawable/t2"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="73dp"
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/h1"
+            tools:layout_editor_absoluteX="306dp"
+            tools:layout_editor_absoluteY="445dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/f1"
+            tools:layout_editor_absoluteX="264dp"
+            tools:layout_editor_absoluteY="455dp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="84dp"
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/d1"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="455dp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/information1" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="71dp"
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/x1"
+            tools:layout_editor_absoluteX="233dp"
+            tools:layout_editor_absoluteY="443dp" />
+
+    </TableRow>
+</android.support.constraint.ConstraintLayout>

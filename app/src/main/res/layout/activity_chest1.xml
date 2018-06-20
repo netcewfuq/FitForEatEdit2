@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b8"
+    tools:context=".Chest1">
+
+    <ScrollView
+        android:layout_width="368dp"
+        android:layout_height="518dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:textColor="@color/white"
+                android:text=" ท่าที่ 1 Barbell Bench Press"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="match_parent"
+                android:layout_height="218dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="60dp"
+                app:srcCompat="@drawable/chest1_bb" />
+
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="match_parent"
+                android:layout_height="218dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="60dp"
+                app:srcCompat="@drawable/chest2_bb" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="353dp"
+                android:layout_height="96dp"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:background="@color/black"
+                android:layout_marginTop="50dp"
+                android:text="คำอธิบายท่าฝึก: ท่านี้ถือเป็นท่าหลักในการสร้างกล้ามเนื้อบริเวณหน้าอก สามารถช่วยสร้างกล้ามเนื้อหน้าอกโดยรวมได้เป็นอย่างดี เพื่อนๆสามารถฝึกได้ดังนี้ครับ"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=" 1. นอนบนม้านอนราบ ยกบาร์ออกจากที่วางบาร์"
+                android:textSize="18dp"
+                android:background="@color/black"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:background="@color/black"
+                android:layout_height="match_parent"
+                android:text=" 2. ค่อยๆ ผ่อนบาร์ลงมาช้าๆ (1-2 วินาที)จนบาร์มาแตะกับช่วงกลางอก (บริเวณหัวนม)"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/black"
+                android:textColor="@color/white"
+                android:text=" 3. ออกแรงดันบาร์ขึ้นตรงๆ จนสุด"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="60dp"
+                android:text=" ท่าที่ 2 Dips For Chest"
+                android:textSize="25dp"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="match_parent"
+                android:layout_height="218dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="60dp"
+                app:srcCompat="@drawable/chest1_dip" />
+
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="match_parent"
+                android:layout_height="218dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="60dp"
+                app:srcCompat="@drawable/chest2_dip" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="353dp"
+                android:layout_height="96dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:background="@color/black"
+                android:textColor="@color/white"
+                android:text="คำอธิบายท่าฝึก: การฝึกด้วยท่า Dips For Chest เริ่มต้นจากการยกตัวให้ลอยบนบาร์คู่ เหยียดแขนจนตึง แต่ไม่ล็อกข้อศอก แอ่นอก เป็นท่าเตรียมฝึกท่า Dips For Chest"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="353dp"
+                android:layout_height="76dp"
+                android:background="@color/black"
+                android:textColor="@color/white"
+                android:text=" 1.ค่อยๆลดลำตัวลง ในลักษณะที่ศอกกางออก ไปทางด้านข้างลำตัว จนกล้ามเนื้อหน้าอกถูกเหยียดตัวจนสุด พร้อมกับสูดหายใจเข้าจนสุด"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="353dp"
+                android:layout_height="74dp"
+                android:background="@color/black"
+                android:textColor="@color/white"
+                android:text=" 2.ออกแรงเกร็งกล้ามเนื้อหน้าอก เพื่อยกตัวขึ้น เพื่อกลับสู่ท่าเตรียม พร้อมกับปล่อยลมหายใจออกจนสุด นับเป็น 1 ครั้ง"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="60dp"
+                android:textColor="@color/white"
+                android:text=" ท่าที่ 3 Dumbell Bench Press"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="match_parent"
+                android:layout_height="218dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="60dp"
+                app:srcCompat="@drawable/dumbell1" />
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="match_parent"
+                android:layout_height="218dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="60dp"
+                app:srcCompat="@drawable/dumbell2" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="353dp"
+                android:layout_height="158dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:background="@color/black"
+                android:textColor="@color/white"
+                android:text="คำอธิบายท่าฝึก: การฝึกด้วยท่า Dumbbell Bench Press เริ่มต้นจากการนอนหงายหน้าลงบนเบาะ เท้าทั้งสองข้างวางสนิทกับพื้น จับดัมเบลยกขึ้นในลักษณะที่แขนตึง แต่ไม่ล็อกข้อศอก โดยหันฝ่ามือออกไปทางด้านหน้าของลำตัว เป็นท่าเตรียมฝึกท่า Dumbbell Bench Press"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="353dp"
+                android:layout_height="74dp"
+                android:background="@color/black"
+                android:textColor="@color/white"
+                android:text=" 1.ค่อยๆคลายกล้ามเนื้อหน้าอก งอแขนเพื่อลดดัมเบลลงจนสุดพิสัย โดยให้แขนทำมุม 60 องศากับลำตัว พร้อมกับสูดหายใจเข้าจนสุด"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="353dp"
+                android:layout_height="74dp"
+                android:background="@color/black"
+                android:textColor="@color/white"
+                android:text=" 2.จากนั้นเริ่มออกแรงเกร็งกล้ามเนื้อหน้าอกเพื่อยกดัมเบลขึ้น เพื่อกลับสู่ท่าเตรียม พร้อมกับปล่อยลมหายใจออกจนสุด นับเป็น 1 ครั้ง"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="60dp"
+                android:textColor="@color/white"
+                android:text=" ท่าที่ 4 Incline Dumbbell Fly"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="match_parent"
+                android:layout_height="218dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="60dp"
+                app:srcCompat="@drawable/incline_fly1" />
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="match_parent"
+                android:layout_height="218dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="60dp"
+                app:srcCompat="@drawable/incline_fly2" />
+
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="353dp"
+                android:layout_height="144dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:background="@color/black"
+                android:textColor="@color/white"
+                android:text="คำอธิบายท่าฝึก: การฝึกด้วยท่า Incline Dumbbell Fly เริ่มต้นจากการนอนหงายหน้าลงบนเบาะเอียงขึ้น 45 องศา จับดัมเบล โดยหันฝ่ามือทั้งสองข้างเข้าหากัน ดันขึ้นในลักษณะที่แขนงอเล็กน้อยเป็นท่าเตรียมฝึกท่า Incline Dumbbell Fly"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="353dp"
+                android:layout_height="118dp"
+                android:background="@color/black"
+                android:textColor="@color/white"
+                android:text=" 1.ค่อยๆคลายกล้ามเนื้อหน้าอก ออก หมุนแขนออกในลักษณะครึ่งวงกลม จนกล้ามเนื้อหน้าอกถูกเหยียดตัวจนสุดพิสัย โดยให้แขนทำมุมประมาณ 70 องศากับลำตัว พร้อมกับสูดลมหายใจเข้าจนสุด"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="353dp"
+                android:layout_height="109dp"
+                android:background="@color/black"
+                android:text=" 2.จากนั้นเริ่มออกแรงเกร็งกล้ามเนื้อหน้าอกเพื่อยกดัมเบลขึ้นจนสุดพิสัย เพื่อกลับสู่ท่าเตรียม พร้อมกับปล่อยลมหายใจออกจนสุด นับเป็น 1 ครั้ง"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TableRow
+        android:id="@+id/tableRow"
+        android:layout_width="0dp"
+        android:layout_height="59dp"
+        android:background="@drawable/t2"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="73dp"
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/h1"
+            tools:layout_editor_absoluteX="306dp"
+            tools:layout_editor_absoluteY="445dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/f1"
+            tools:layout_editor_absoluteX="264dp"
+            tools:layout_editor_absoluteY="455dp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="84dp"
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/d1"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="455dp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/information1" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="71dp"
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/x1"
+            tools:layout_editor_absoluteX="233dp"
+            tools:layout_editor_absoluteY="443dp" />
+
+    </TableRow>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b8"
+    tools:context=".Back1">
+
+    <ScrollView
+        android:layout_width="368dp"
+        android:layout_height="518dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:layout_marginTop="40dp"
+                android:text=" ท่าที่ 1 Barbell Row"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="match_parent"
+                android:layout_height="218dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="60dp"
+                app:srcCompat="@drawable/barbell_row_1" />
+
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="match_parent"
+                android:layout_height="218dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="60dp"
+                app:srcCompat="@drawable/barbell_row_2" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="353dp"
+                android:layout_height="196dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:background="@color/black"
+                android:text="คำอธิบายท่าฝึก: จับบาร์เบลด้วนแขนสองข้าง มือกว้างกว่าหัวไหล่เล็กน้อย แขนทิ้งตรงและเหยียดตึง ทำตัวให้ตรงเป็นแนวธรรมชาติ รักษาน้ำหนักการวางตัวให้มั่นคง พลักสะโพกไปด้านหลัง พับตัวลงมาด้านหน้า ให้ขนานพื้นมากที่สุด ออกแรงดีงบาร์เบลด้วยการแทงข้อศอกขึ้นสูงๆ จนบาร์เบลใกล้ลำตัว แล้วผ่อนแรงลงกลับสู่ท่าเริ่มต้น ทำซ้ำจนครบจำนวน"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="60dp"
+                android:textColor="@color/white"
+                android:text=" ท่าที่ 2 One-Arm Dumbell Row"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="match_parent"
+                android:layout_height="218dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="60dp"
+                app:srcCompat="@drawable/dumbbell_row_1" />
+
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="match_parent"
+                android:layout_height="218dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="60dp"
+                app:srcCompat="@drawable/dumbbell_row_2" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="353dp"
+                android:layout_height="264dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:background="@color/black"
+                android:textColor="@color/white"
+                android:text="คำอธิบายท่าฝึก: การฝึกด้วยท่า One-Arm Dumbbell Row เริ่มต้นจากการ วางเข่าข้างที่ตรงข้ามกับฝั่งที่ต้องการจะฝึกไว้บนเบาะ โดยให้ตั้งแต่ข้อเท้าเลยออกมาจากเบาะ วางเท้าออกข้างห่างออกไปเล็กน้อย ปลายเท้าทำมุม 45 องศา จากนั้น โน้มลำตัวลงไปด้านหน้า ทำมุม 30 องศากับพื้นโลก ใช้มือฝั่งเดียวกับหัวเข่าที่วางไว้บนเบาะ ค้ำยันลำตัวเอาไว้ ปล่อยแขนฝั่งที่ต้องการจะฝึกลงตามธรรมชาติ ถือดัมเบลในลักษณะหันฝ่ามือเข้าหาลำตัว เป็นท่าเตรียมฝึกท่า One-Arm Dumbbell Row"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="353dp"
+                android:layout_height="119dp"
+                android:background="@color/black"
+                android:text=" 1.เริ่มต้นจากการสูดลมหายใจเข้าจนสุด จากนั้นออกแรงเกร็งกล้ามเนื้อหลัง เพื่อดึงดัมเบลขึ้นจนสุดพิสัย โดยพยายามบีบมุมของข้อศอกเข้าหาลำตัวขณะเคลื่อนที่ พร้อมกับปล่อยลมหายใจออกจนสุด"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="353dp"
+                android:layout_height="74dp"
+                android:background="@color/black"
+                android:textColor="@color/white"
+                android:text=" 2.จากนั้นค่อยๆ คลายกล้ามเนื้อหลังออก ลดดัมเบลลง เพื่อกลับสู่ท่าเตรียม พร้อมกับสุดลมหายใจเข้าจนสุด นับเป็น 1 ครั้ง"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="60dp"
+                android:textColor="@color/white"
+                android:text=" ท่าที่ 3 Pull Ups"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="match_parent"
+                android:layout_height="218dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="60dp"
+                app:srcCompat="@drawable/pullups_1" />
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="match_parent"
+                android:layout_height="218dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="60dp"
+                app:srcCompat="@drawable/pullups_2" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="353dp"
+                android:layout_height="103dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:background="@color/black"
+                android:textColor="@color/white"
+                android:text="คำอธิบายท่าฝึก: การฝึกด้วยท่า Pull-Ups นั้นลำดับแรกยกตัวขึ้นไป นำแขนทั้งสองข้างขับบาร์ เชิ่ดหน้าอกขึ้นแล้วยกขาไขว้หลังพร้อมกับดึงตัวขึ้นให้ ศรีษะเลยบาร์ไป"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:layout_marginTop="60dp"
+                android:text=" ท่าที่ 4 Deadlift"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="match_parent"
+                android:layout_height="218dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="60dp"
+                app:srcCompat="@drawable/deadlift_1" />
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="match_parent"
+                android:layout_height="218dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="60dp"
+                app:srcCompat="@drawable/deadlift_2" />
+
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="353dp"
+                android:layout_height="144dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:background="@color/black"
+                android:textColor="@color/white"
+                android:text="คำอธิบายท่าฝึก: การฝึกด้วยท่า Deadlift เริ่มต้นจากการ ยืนตรง แอ่นอก วางเท้าทั้งสองข้างห่างกันด้วยความกว้างประมาณหัวไหล่ คว่ำมือทั้งสองข้างลง ถือดัมเบล ปล่อยให้ดัมเบลพาดไว้บนหน้าขา เป็นท่าเตรียมฝึกท่า Deadlift"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="353dp"
+                android:layout_height="187dp"
+                android:background="@color/black"
+                android:textColor="@color/white"
+                android:text=" 1.เริ่มต้นจากการ ค่อยๆคลายกล้ามเนื้อหลังขาออก ดึงสะโพกออกไปทางด้านหลัง เพื่อลดลำตัวช่วงบนลงจนสุดพิสัย โดยพยายามให้ดัมเบลเคลื่อนที่ลงในลักษณะที่ใกล้กับต้นขาให้มากที่สุด จะสังเกตได้ว่าเมื่อกล้ามเนื้อหลังขาถูกเหยียดออกจนสุด หลังล่างจะยังคงรักษาแนวเป็นเส้นตรงอยู่ พร้อมกับสูดลมหายใจเข้าจนสุด"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="353dp"
+                android:layout_height="74dp"
+                android:background="@color/black"
+                android:textColor="@color/white"
+                android:text=" 2.ออกแรงเกร็งกล้ามเนื้อหลังขา ดันสะโพกกลับเข้ามา เพื่อยกลำตัวขึ้น กลับสู่ท่าเตรียม พร้อมกับปล่อยลมหายใจออกจนสุด นับเป็น 1 ครั้ง"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="60dp"
+                android:textColor="@color/white"
+                android:text=" ท่าที่ 5 Lat Pulldown"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/imageView23"
+                android:layout_width="match_parent"
+                android:layout_height="218dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="60dp"
+                app:srcCompat="@drawable/lat_pulldown_1" />
+
+            <ImageView
+                android:id="@+id/imageView24"
+                android:layout_width="match_parent"
+                android:layout_height="218dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="60dp"
+                app:srcCompat="@drawable/lat_pulldown_2" />
+
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="353dp"
+                android:layout_height="188dp"
+                android:layout_gravity="center"
+                android:background="@color/black"
+                android:textColor="@color/white"
+                android:layout_marginTop="50dp"
+                android:text="คำอธิบายท่าฝึก: การฝึกด้วยท่า Lat Pulldown เริ่มต้นจากการคว่ำมือทั้งสองข้างลง จับบาร์ด้วยความกว้างที่กว้างกว่าหัวไหล่ประมาณครึ่งศอก จากนั้นนั่งลงบนเบาะของเครื่อง Cable Pulldown พยายามล็อกขากับเบาะรองไว้ให้แน่น ปล่อยให้กล้ามเนื้อหลังถูกเหยียดออกจนสุด ไปตามแรงของเคเบิ้ล เป็นท่าเตรียมฝึกท่า Lat Pulldown"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="353dp"
+                android:layout_height="118dp"
+                android:background="@color/black"
+                android:textColor="@color/white"
+                android:text=" 1.เริ่มต้นจากการสูดลมหายใจเข้าจนสุด จากนั้น แอ่นอก ออกแรงเกร็งกล้ามเนื้อหลัง เพื่อดึงด้ามจับลงมาจนสัมผัสกับหน้าอก โดยในขณะที่ออกแรงนั้นพยายามปิดมุมข้อศอก เข้าหาลำตัว พร้อมกับปล่อยลมหายใจออกจนสุด"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="353dp"
+                android:background="@color/black"
+                android:textColor="@color/white"
+                android:layout_height="74dp"
+                android:text=" 2.ค่อยๆคลายกล้ามเนื้อหลังออก ปล่อยด้ามจับกลับขึ้นไป เพื่อกลับสู่ท่าเตรียม พร้อมกับสูดลมหายใจเข้าจนสุด นับเป็น 1 ครั้ง "
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"/>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TableRow
+        android:id="@+id/tableRow"
+        android:layout_width="0dp"
+        android:layout_height="59dp"
+        android:background="@drawable/t2"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="73dp"
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/h1"
+            tools:layout_editor_absoluteX="306dp"
+            tools:layout_editor_absoluteY="445dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/f1"
+            tools:layout_editor_absoluteX="264dp"
+            tools:layout_editor_absoluteY="455dp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="84dp"
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/d1"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="455dp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/information1" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="71dp"
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/x1"
+            tools:layout_editor_absoluteX="233dp"
+            tools:layout_editor_absoluteY="443dp" />
+
+    </TableRow>
+</android.support.constraint.ConstraintLayout>

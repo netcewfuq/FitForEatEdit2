@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b8"
+
+    tools:context=".Leg1">
+
+    <ScrollView
+        android:layout_width="368dp"
+        android:layout_height="518dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:textColor="@color/white"
+                android:text=" ท่าที่ 1 Barbell Squat"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="match_parent"
+                android:layout_height="218dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="60dp"
+                app:srcCompat="@drawable/barbell_squat1" />
+
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="match_parent"
+                android:layout_height="218dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="60dp"
+                app:srcCompat="@drawable/barbell_squat2" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="353dp"
+                android:layout_height="78dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:text="คำอธิบายท่าฝึก: วิธีการฝึก Barbell Squat ให้ผู้ฝึกเซต power rack ให้บาร์เบลอยู่สูงเท่ากับส่วนอกของผู้ฝึก"
+                android:textSize="18dp"
+                android:background="@color/black"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="353dp"
+                android:layout_height="181dp"
+                android:background="@color/black"
+                android:textColor="@color/white"
+                android:text=" 1.ให้ผู้ฝึกยืนอยู่ตรงกลางบาร์เบลและยกบาร์เบลโดยที่ย่อตัวลงไปใต้บาร์เบลและวางบาร์เบลไว้ตรงหลังส่วนบกตรงสะบักและประคองบาร์เบลด้วยมือทั้ง2ข้างและยกบาร์เบลออกจาก power rack ด้วยถ้ายืนที่ขาทั้ง2ข้างของผู้ฝึกกว้างพอดีกับหัวไหล่และหลักตั้งฉากกับพื้นพร้อมสุดลมหายใจเข้าจดสุดเป็นท่าเตรียม"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="353dp"
+                android:layout_height="76dp"
+                android:background="@color/black"
+                android:textColor="@color/white"
+                android:text=" 2.ให้ผู้ฝึกค่อยๆนั่งย่อตัวลงจนต้นขาทำแนวระนาบขนานกับพื้นโลกโดยที่หย่อนก้นลงก่อนคล้ายกับนั่งเก้าอี้พร้อมกับสูดลมหายใจเข้า"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="353dp"
+                android:layout_height="109dp"
+                android:background="@color/black"
+                android:textColor="@color/white"
+                android:text=" 3.ออกแรงโดยที่ดันบาร์ขึ้นด้วยหน้าขาจนขาและลำตัวของผู้ฝึกตั้งฉากกลับพื้นเพื่อกลับมาสู่ท่าเตรียมพร้อมกับปล่อยลมหายใจออก นับเป็น1ครั้ง"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+
+
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="60dp"
+                android:textColor="@color/white"
+                android:text=" ท่าที่ 2 Barbell Lunge"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="match_parent"
+                android:layout_height="218dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="60dp"
+                app:srcCompat="@drawable/barbell_lunge1" />
+
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="match_parent"
+                android:layout_height="218dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="60dp"
+                app:srcCompat="@drawable/barbell_lunge2" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="353dp"
+                android:layout_height="197dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:background="@color/black"
+                android:textColor="@color/white"
+                android:text="คำอธิบายท่าฝึก:  ท่านี้เน้นการบริหารกล้ามขาส่วนหน้าและส่วนหลัง เพิ่มความแข็งแรง เริ่มด้วยผู้เล่นยืนเท้าแยกห่างกัน จากนั้นเลื่อนบาร์เบลที่เตรียมไว้มาอยู่ตรงไหล่และให้ต่ำกว่าคอเล็กน้อย คอและลำตัวยืดตรงจากนั้นก้าวขาข้างหนึ่งไปข้างหน้าพร้อมกับย่อเข่าลงและหายใจเข้า พยายามอย่าให้เข่ายืนเกินปลายเท้า จากนั้นดึงกลับพร้อมหายใจออก"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="60dp"
+                android:textColor="@color/white"
+                android:text=" ท่าที่ 3 Leg Extenions"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="match_parent"
+                android:layout_height="218dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="60dp"
+                app:srcCompat="@drawable/leg_extension1" />
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="match_parent"
+                android:layout_height="218dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="60dp"
+                app:srcCompat="@drawable/leg_extension2" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="353dp"
+                android:layout_height="168dp"
+                android:layout_gravity="center"
+                android:background="@color/black"
+                android:textColor="@color/white"
+                android:layout_marginTop="50dp"
+                android:text="คำอธิบายท่าฝึก: การฝึกด้วยท่า Leg Extension เริ่มต้นจากการ นั่งลงบนเครื่อง โดยให้หลังและก้นนาบสนิทติดกับเบาะ สอดเท้าทั้งสองข้าง ล็อคเข้าไว้กับเบาะรอง มือทั้สองข้างกำด้ามจับเอาไว้ เพื่อไม่ให้ตัวลอยขึ้นจากเบาะ ระหว่างการฝึก เป็นท่าเตรียมฝึกท่า Leg Extension"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="353dp"
+                android:layout_height="100dp"
+                android:background="@color/black"
+                android:textColor="@color/white"
+                android:text=" 1.เริ่มต้นจากการสูดลมหายใจเข้าจนสุด จากนั้นออกแรงเกร็งกล้ามเนื้อหน้าขา เพื่อยกปลายเท้าขึ้นจนสุดพิสัย พร้อมกับปล่อยลมหายใจออกจนสุด"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="353dp"
+                android:layout_height="76dp"
+                android:background="@color/black"
+                android:textColor="@color/white"
+                android:text=" 2.ค่อยๆคลายกล้ามเนื้อหน้าขาออก ลดปลายเท้าลง เพื่อกลับสู่ท่าเตรียม พร้อมกับสูดลมหายใจเข้าจนสุด นับเป็น 1 ครั้ง"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="60dp"
+                android:textColor="@color/white"
+                android:text=" ท่าที่ 4 Leg Press"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="match_parent"
+                android:layout_height="218dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="60dp"
+                app:srcCompat="@drawable/leg_press1" />
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="match_parent"
+                android:layout_height="218dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="60dp"
+                app:srcCompat="@drawable/leg_press2" />
+
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="353dp"
+                android:layout_height="132dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:background="@color/black"
+                android:textColor="@color/white"
+                android:text="คำอธิบายท่าฝึก: การฝึกด้วยท่า Leg Press เริ่มต้นจากการ นอนลงบนเบาะ วางเท้าทั้งสองข้างลงบนแป้นถีบ ด้วยความกว้างประมาณหัวไหล่ วางเท้าต่ำ จากนั้นถีบแป้นออกไป แล้วปลดตัวล็อกออก เป็นท่าเตรียมฝึกท่า Leg Press"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="353dp"
+                android:layout_height="97dp"
+                android:background="@color/black"
+                android:textColor="@color/white"
+                android:text=" 1.เริ่มต้นจากการ ค่อยๆคลายกล้ามเนื้อหน้าขาออก ลดแป้นลงมาให้หน้าขาเข้าใกล้กับลำตัวให้มากที่สุด พร้อมกับสูดลมหายใจเข้าจนสุด"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="353dp"
+                android:layout_height="108dp"
+                android:background="@color/black"
+                android:textColor="@color/white"
+                android:text=" 2.ออกแรงเกร็งกล้ามเนื้อหน้าขา เพื่อถีบแป้นออกไป จนขาเหยียดจนเกือบตึง แต่ไม่ล็อกข้อเข่า เพื่อกลับสู่ท่าเตรียม พร้อมกับปล่อยลมหายใจออกจนสุด นับเป็น 1 ครั้ง"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="353dp"
+                android:layout_height="78dp"
+                android:layout_marginTop="60dp"
+                android:text=""
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TableRow
+        android:id="@+id/tableRow"
+        android:layout_width="0dp"
+        android:layout_height="59dp"
+        android:background="@drawable/t2"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="73dp"
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/h1"
+            tools:layout_editor_absoluteX="306dp"
+            tools:layout_editor_absoluteY="445dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/f1"
+            tools:layout_editor_absoluteX="264dp"
+            tools:layout_editor_absoluteY="455dp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="84dp"
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/d1"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="455dp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/information1" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="71dp"
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/x1"
+            tools:layout_editor_absoluteX="233dp"
+            tools:layout_editor_absoluteY="443dp" />
+
+    </TableRow>
+</android.support.constraint.ConstraintLayout>
