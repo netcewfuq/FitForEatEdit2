@@ -3,15 +3,21 @@ package fitforeat.fitforeat_2;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 
 
 public class Main2Activity_home extends AppCompatActivity {
@@ -66,6 +72,7 @@ public class Main2Activity_home extends AppCompatActivity {
                     text_result.setText(String.valueOf(result));
 
 
+//                    Bmi OK
                     if (result>18.5 & result<23.4) {
                         Intent i = new Intent(Main2Activity_home.this, Main3Activity_fitness.class);
                         i.putExtra("text_result", ""+result);
@@ -73,27 +80,32 @@ public class Main2Activity_home extends AppCompatActivity {
                         startActivity(i);
                     }
 
-
+//                    Over Bmi
                     else if (result>=25) {
 
                         //Intent i = new Intent(Main2Activity_home.this, Main7Activity_Bmifat.class);
-                        Intent i = new Intent(Main2Activity_home.this, Food_1.class);
+//                        Intent i = new Intent(Main2Activity_home.this, Food_1.class);
+//                        i.putExtra("text_result", ""+result);
+//                        startActivity(i);
 
-                        i.putExtra("text_result", ""+result);
-                        startActivity(i);
+                        popUpOverBmi(name, age, weight, height, result);
 
-                        Toast.makeText(getApplicationContext(), "ค่า BMI ของคุณ =" + result, Toast.LENGTH_LONG).show();
+
+                       // Toast.makeText(getApplicationContext(), "ค่า BMI ของคุณ =" + result, Toast.LENGTH_LONG).show();
                     }
 
 
                     else if (result<=24) {
 
                         //  Intent i = new Intent(Main2Activity_home.this, Main8Activity_Bmithin.class);
-                        Intent i = new Intent(Main2Activity_home.this, Food_2.class);
-                        i.putExtra("text_result", ""+result);
-                        startActivity(i);
+//                        Intent i = new Intent(Main2Activity_home.this, Food_2.class);
+//                        i.putExtra("text_result", ""+result);
+//                        startActivity(i);
+//
+//                        Toast.makeText(getApplicationContext(), "ค่า BMI ของคุณ =" + result, Toast.LENGTH_LONG).show();
 
-                        Toast.makeText(getApplicationContext(), "ค่า BMI ของคุณ =" + result, Toast.LENGTH_LONG).show();
+                        popUpOverBmi(name, age, weight, height, result);
+
                     }
 
 
@@ -185,7 +197,63 @@ public class Main2Activity_home extends AppCompatActivity {
         }); /////////////// exitApp
     }
 
-        public void onBackPressed() {
+    private void popUpOverBmi(final String name,
+                              final String age,
+                              final String weight,
+                              final String height,
+                              final double result) {
+
+        android.support.v7.app.AlertDialog.Builder builder = new android.support.v7.app.AlertDialog.Builder(Main2Activity_home.this);
+        builder.setCancelable(false);
+        builder.setIcon(R.drawable.ic_action_alert);
+        builder.setTitle("Your Bmi ==> " + Double.toString(result));
+
+        CharSequence[] charSequences = new CharSequence[]{"1. Hard", "2. Normal", "3. Easy"};
+
+        builder.setSingleChoiceItems(charSequences, -1, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+
+//                Save Preference
+                String[] strings = new String[]{"Hard", "Normal", "Easy"};
+                Log.d("20JuneV1", "Plan ==> " + strings[which]);
+
+                Calendar calendar = Calendar.getInstance();
+                DateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy");
+                String currentDate = dateFormat.format(calendar.getTime());
+                Log.d("20JuneV1", "currentDate ==> " + currentDate);
+
+                SharedPreferences sharedPreferences = getSharedPreferences("MyBmi",
+                        MODE_PRIVATE);
+                SharedPreferences.Editor editor = sharedPreferences.edit();
+                editor.putString("Name", name);
+                editor.putString("Age", age);
+                editor.putString("Weight", weight);
+                editor.putString("Height", height);
+                editor.putString("BMI", Double.toString(result));
+                editor.putString("Plan", strings[which]);
+                editor.putString("StartDate", currentDate);
+                editor.commit();
+
+                startActivity(new Intent(Main2Activity_home.this,
+                        OverBmiActivity.class));
+
+
+
+
+
+
+
+                dialog.dismiss();
+            }
+        });
+        builder.show();
+
+
+    }
+
+
+    public void onBackPressed() {
             AlertDialog.Builder dialog = new AlertDialog.Builder(this);
             dialog.setTitle("Exit");
             dialog.setIcon(R.mipmap.ic_launcher);
