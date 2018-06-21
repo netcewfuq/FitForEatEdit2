@@ -1,8 +1,10 @@
 package fitforeat.fitforeat_2;
 
 import android.app.AlarmManager;
+import android.app.AlertDialog;
 import android.app.PendingIntent;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
@@ -141,6 +143,15 @@ public class OverBmiActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
+                AlertDialog.Builder dialog = new AlertDialog.Builder(OverBmiActivity.this);
+                dialog.setTitle("ล้างข้อมูลทั้งหมด");
+                dialog.setIcon(R.mipmap.ic_launcher);
+                dialog.setCancelable(true);
+                dialog.setMessage("คุณต้องการล้างข้อมูลทั้งหมดใช่หรือไม่ ?");
+                dialog.setPositiveButton("ใช่", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+
+
                 SharedPreferences sharedPreferences = getSharedPreferences("MyBmi",
                         MODE_PRIVATE);
                 SharedPreferences.Editor editor = sharedPreferences.edit();
@@ -152,9 +163,17 @@ public class OverBmiActivity extends AppCompatActivity {
                 editor.putString("Plan", "");
                 editor.putString("StartDate", "");
                 editor.commit();
-
                 startActivity(new Intent(OverBmiActivity.this, Main2Activity_home.class));
                 finish();
+            }
+        });
+                dialog.setNegativeButton("ไม่", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.cancel();
+                    }
+                });
+
+                dialog.show();
             }
         });
     }

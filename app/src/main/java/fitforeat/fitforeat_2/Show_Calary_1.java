@@ -59,7 +59,7 @@ public class Show_Calary_1 extends AppCompatActivity {
 
 
                 AlertDialog.Builder dialog = new AlertDialog.Builder(Show_Calary_1.this);
-                dialog.setTitle("ลบข้อมูลทั้งหมก");
+                dialog.setTitle("ลบข้อมูลทั้งหมด");
                 dialog.setIcon(R.mipmap.ic_launcher);
                 dialog.setCancelable(true);
                 dialog.setMessage("คุณต้องการลบข้อมูลทั้งหมดใช่หรือไม่ ?");

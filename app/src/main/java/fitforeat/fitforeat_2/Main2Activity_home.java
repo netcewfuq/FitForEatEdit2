@@ -205,7 +205,7 @@ public class Main2Activity_home extends AppCompatActivity {
 
         android.support.v7.app.AlertDialog.Builder builder = new android.support.v7.app.AlertDialog.Builder(Main2Activity_home.this);
         builder.setCancelable(false);
-        builder.setIcon(R.drawable.ic_action_alert);
+        builder.setIcon(R.mipmap.ic_launcher);
         builder.setTitle("Your Bmi ==> " + Double.toString(result));
 
         CharSequence[] charSequences = new CharSequence[]{"1. Hard", "2. Normal", "3. Easy"};
