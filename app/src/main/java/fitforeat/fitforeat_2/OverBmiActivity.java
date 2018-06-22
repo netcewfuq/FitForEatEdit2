@@ -12,6 +12,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.Calendar;
@@ -43,6 +44,9 @@ public class OverBmiActivity extends AppCompatActivity {
 //        Show View
         showView();
 
+//        Show Exercise
+        showExercise();
+
 //        Reset Controller
         resetController();
 
@@ -51,6 +55,20 @@ public class OverBmiActivity extends AppCompatActivity {
 
 
     }   // Main Method
+
+    private void showExercise() {
+        ImageView imageView = findViewById(R.id.imvExercise);
+        int[] ints = new int[]{R.drawable.hard, R.drawable.normal, R.drawable.easy};
+
+        if (planString.equals("Hard")) {
+            imageView.setImageResource(ints[0]);
+        } else if (planString.equals("Normal")) {
+            imageView.setImageResource(ints[1]);
+        } else {
+            imageView.setImageResource(ints[2]);
+        }
+
+    }
 
     @Override
     protected void onResume() {
@@ -186,6 +204,8 @@ public class OverBmiActivity extends AppCompatActivity {
         bmiTextView.setText(bmiString);
         planTextView.setText(planString);
         startDateTextView.setText(startDateString);
+
+
     }
 
     private void getValue() {
