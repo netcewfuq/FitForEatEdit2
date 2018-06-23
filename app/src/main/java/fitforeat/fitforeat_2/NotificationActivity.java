@@ -24,6 +24,9 @@ public class NotificationActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_notification);
 
+        MyConstant myConstant = new MyConstant();
+        myConstant.setaBoolean(false);
+
         showNoti();
 
         getValue();

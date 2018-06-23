@@ -51,7 +51,11 @@ public class OverBmiActivity extends AppCompatActivity {
         resetController();
 
 //        Check Notification
-        checkNotification();
+        MyConstant myConstant = new MyConstant();
+        Log.d("23JuneV1", "boolene --> " + myConstant.isaBoolean());
+        if (myConstant.isaBoolean()) {
+            checkNotification();
+        }
 
 
     }   // Main Method
