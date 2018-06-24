@@ -61,18 +61,24 @@ public class OverBmiActivity extends AppCompatActivity {
     }   // Main Method
 
     private void showExercise() {
-        ImageView imageView = findViewById(R.id.imvExercise);
-        int[] ints = new int[]{R.drawable.hard, R.drawable.normal, R.drawable.easy};
 
-        if (planString.equals("Hard")) {
-            imageView.setImageResource(ints[0]);
-        } else if (planString.equals("Normal")) {
-            imageView.setImageResource(ints[1]);
-        } else {
-            imageView.setImageResource(ints[2]);
-        }
 
-    }
+
+
+
+
+//        ImageView imageView = findViewById(R.id.imvExercise);
+//        int[] ints = new int[]{R.drawable.hard, R.drawable.normal, R.drawable.easy};
+//
+//        if (planString.equals("Hard")) {
+//            imageView.setImageResource(ints[0]);
+//        } else if (planString.equals("Normal")) {
+//            imageView.setImageResource(ints[1]);
+//        } else {
+//            imageView.setImageResource(ints[2]);
+//        }
+
+    }   // showExercise
 
     @Override
     protected void onResume() {
