@@ -12,8 +12,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.hide();
+//        ActionBar actionBar = getSupportActionBar();
+//        actionBar.hide();
 
         SharedPreferences sharedPreferences = getSharedPreferences("MyBmi", MODE_PRIVATE);
         final String nameString = sharedPreferences.getString("Name", "");

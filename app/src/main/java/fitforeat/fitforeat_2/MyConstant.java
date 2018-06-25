@@ -36,7 +36,7 @@ public class MyConstant {
             R.drawable.exercise28,
             R.drawable.exercise29};
 
-    private String[] titleStrings = new String[]{"title0",
+    private String[] titleStrings = new String[]{
             "title0",
             "title1",
             "title2",
@@ -67,6 +67,42 @@ public class MyConstant {
             "title27",
             "title28",
             "title29" };
+
+    private String[] detailStrings = new String[]{
+            "detail0",
+            "detail1",
+            "detail2",
+            "detail3",
+            "detail4",
+            "detail5",
+            "detail6",
+            "detail7",
+            "detail8",
+            "detail9",
+            "detail10",
+            "detail11",
+            "detail12",
+            "detail13",
+            "detail14",
+            "detail15",
+            "detail16",
+            "detail17",
+            "detail18",
+            "detail19",
+            "detail20",
+            "detail21",
+            "detail22",
+            "detail23",
+            "detail24",
+            "detail25",
+            "detail26",
+            "detail27",
+            "detail28",
+            "detail29"};
+
+    public String[] getDetailStrings() {
+        return detailStrings;
+    }
 
     public int[] getIconInts() {
         return iconInts;
