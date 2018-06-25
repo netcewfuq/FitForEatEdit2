@@ -9,13 +9,17 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.List;
 import java.util.Random;
 
 public class OverBmiActivity extends AppCompatActivity {
@@ -61,18 +65,54 @@ public class OverBmiActivity extends AppCompatActivity {
     }   // Main Method
 
     private void showExercise() {
-        ImageView imageView = findViewById(R.id.imvExercise);
-        int[] ints = new int[]{R.drawable.hard, R.drawable.normal, R.drawable.easy};
+
+        RecyclerView recyclerView = findViewById(R.id.recyclerViewExercise);
+        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this,
+                LinearLayoutManager.VERTICAL, false);
+        recyclerView.setLayoutManager(linearLayoutManager);
+
+        MyConstant myConstant = new MyConstant();
+        String[] titleStrings = myConstant.getTitleStrings();
+        String[] detailStrings = myConstant.getDetailStrings();
+        int[] ints = myConstant.getIconInts();
+
+        List<String> titleStringList = new ArrayList<>();
+        List<String> detailStringList = new ArrayList<>();
+        List<Integer> iconIntegerList = new ArrayList<>();
+
+        int amountInt = 7;
 
         if (planString.equals("Hard")) {
-            imageView.setImageResource(ints[0]);
+            amountInt = 7;
         } else if (planString.equals("Normal")) {
-            imageView.setImageResource(ints[1]);
+            amountInt = 15;
         } else {
-            imageView.setImageResource(ints[2]);
+            amountInt = 30;
         }
 
-    }
+        for (int i=0; i<amountInt; i+=1) {
+            titleStringList.add(titleStrings[i]);
+            detailStringList.add(detailStrings[i]);
+            iconIntegerList.add(ints[i]);
+        }
+
+        RecycleViewAdapter recycleViewAdapter = new RecycleViewAdapter(this,
+                titleStringList, detailStringList, iconIntegerList);
+        recyclerView.setAdapter(recycleViewAdapter);
+
+
+//        ImageView imageView = findViewById(R.id.imvExercise);
+//        int[] ints = new int[]{R.drawable.hard, R.drawable.normal, R.drawable.easy};
+//
+//        if (planString.equals("Hard")) {
+//            imageView.setImageResource(ints[0]);
+//        } else if (planString.equals("Normal")) {
+//            imageView.setImageResource(ints[1]);
+//        } else {
+//            imageView.setImageResource(ints[2]);
+//        }
+
+    }   // showExercise
 
     @Override
     protected void onResume() {

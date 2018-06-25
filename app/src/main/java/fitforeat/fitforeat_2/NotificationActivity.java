@@ -9,7 +9,12 @@ import android.net.Uri;
 import android.support.v4.app.NotificationCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.widget.TextView;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class NotificationActivity extends AppCompatActivity {
 
@@ -35,8 +40,50 @@ public class NotificationActivity extends AppCompatActivity {
 
         showView();
 
+        showExercise();
+
 
     }   // Main Method
+
+    private void showExercise() {
+
+        RecyclerView recyclerView = findViewById(R.id.recyclerViewExercise);
+        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this,
+                LinearLayoutManager.VERTICAL, false);
+        recyclerView.setLayoutManager(linearLayoutManager);
+
+        MyConstant myConstant = new MyConstant();
+        String[] titleStrings = myConstant.getTitleStrings();
+        String[] detailStrings = myConstant.getDetailStrings();
+        int[] ints = myConstant.getIconInts();
+
+        List<String> titleStringList = new ArrayList<>();
+        List<String> detailStringList = new ArrayList<>();
+        List<Integer> iconIntegerList = new ArrayList<>();
+
+        for (int i=0; i<titleStrings.length; i+=1) {
+            titleStringList.add(titleStrings[i]);
+            detailStringList.add(detailStrings[i]);
+            iconIntegerList.add(ints[i]);
+        }
+
+        RecycleViewAdapter recycleViewAdapter = new RecycleViewAdapter(this,
+                titleStringList, detailStringList, iconIntegerList);
+        recyclerView.setAdapter(recycleViewAdapter);
+
+
+//        ImageView imageView = findViewById(R.id.imvExercise);
+//        int[] ints = new int[]{R.drawable.hard, R.drawable.normal, R.drawable.easy};
+//
+//        if (planString.equals("Hard")) {
+//            imageView.setImageResource(ints[0]);
+//        } else if (planString.equals("Normal")) {
+//            imageView.setImageResource(ints[1]);
+//        } else {
+//            imageView.setImageResource(ints[2]);
+//        }
+
+    }   // showExercise
 
     private void showView() {
         nameTextView.setText(nameString);
