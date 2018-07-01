@@ -41,8 +41,8 @@ public class Food_2 extends AppCompatActivity {
         });//Button
 
 
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.hide();
+//        ActionBar actionBar = getSupportActionBar();
+//        actionBar.hide();
 
         foodListView = (ListView) findViewById(R.id.listView);
 

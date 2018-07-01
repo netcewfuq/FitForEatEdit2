@@ -35,35 +35,40 @@
                 android:textSize="25dp"
                 android:textStyle="bold" />
 
-            <ImageView
-                android:id="@+id/imageView14"
-                android:layout_width="match_parent"
-                android:layout_height="218dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="60dp"
-                app:srcCompat="@drawable/barbell_squat1" />
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="341dp"
+                android:layout_height="305dp"
+                android:src="@drawable/barbell_squat" />
+
+            <!--<ImageView-->
+                <!--android:id="@+id/imageView14"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="218dp"-->
+                <!--android:layout_marginEnd="8dp"-->
+                <!--android:layout_marginLeft="8dp"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--android:layout_marginStart="8dp"-->
+                <!--android:layout_marginTop="60dp"-->
+                <!--app:srcCompat="@drawable/barbell_squat1" />-->
 
 
-            <ImageView
-                android:id="@+id/imageView16"
-                android:layout_width="match_parent"
-                android:layout_height="218dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="60dp"
-                app:srcCompat="@drawable/barbell_squat2" />
+            <!--<ImageView-->
+                <!--android:id="@+id/imageView16"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="218dp"-->
+                <!--android:layout_marginEnd="8dp"-->
+                <!--android:layout_marginLeft="8dp"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--android:layout_marginStart="8dp"-->
+                <!--android:layout_marginTop="60dp"-->
+                <!--app:srcCompat="@drawable/barbell_squat2" />-->
 
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="353dp"
                 android:layout_height="78dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="10dp"
                 android:text="คำอธิบายท่าฝึก: วิธีการฝึก Barbell Squat ให้ผู้ฝึกเซต power rack ให้บาร์เบลอยู่สูงเท่ากับส่วนอกของผู้ฝึก"
                 android:textSize="18dp"
                 android:background="@color/black"
@@ -91,19 +96,6 @@
                 android:textSize="18dp"
                 android:textStyle="bold" />
 
-            <TextView
-                android:id="@+id/textView42"
-                android:layout_width="353dp"
-                android:layout_height="109dp"
-                android:background="@color/black"
-                android:textColor="@color/white"
-                android:text=" 3.ออกแรงโดยที่ดันบาร์ขึ้นด้วยหน้าขาจนขาและลำตัวของผู้ฝึกตั้งฉากกลับพื้นเพื่อกลับมาสู่ท่าเตรียมพร้อมกับปล่อยลมหายใจออก นับเป็น1ครั้ง"
-                android:textSize="18dp"
-                android:textStyle="bold" />
-
-
-
-
 
             <TextView
                 android:id="@+id/textView6"
@@ -116,35 +108,40 @@
                 android:textSize="25dp"
                 android:textStyle="bold" />
 
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="341dp"
+                android:layout_height="305dp"
+                android:src="@drawable/barbell_lunge" />
 
-            <ImageView
-                android:id="@+id/imageView17"
-                android:layout_width="match_parent"
-                android:layout_height="218dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="60dp"
-                app:srcCompat="@drawable/barbell_lunge1" />
 
-            <ImageView
-                android:id="@+id/imageView18"
-                android:layout_width="match_parent"
-                android:layout_height="218dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="60dp"
-                app:srcCompat="@drawable/barbell_lunge2" />
+            <!--<ImageView-->
+                <!--android:id="@+id/imageView17"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="218dp"-->
+                <!--android:layout_marginEnd="8dp"-->
+                <!--android:layout_marginLeft="8dp"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--android:layout_marginStart="8dp"-->
+                <!--android:layout_marginTop="60dp"-->
+                <!--app:srcCompat="@drawable/barbell_lunge1" />-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/imageView18"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="218dp"-->
+                <!--android:layout_marginEnd="8dp"-->
+                <!--android:layout_marginLeft="8dp"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--android:layout_marginStart="8dp"-->
+                <!--android:layout_marginTop="60dp"-->
+                <!--app:srcCompat="@drawable/barbell_lunge2" />-->
 
             <TextView
                 android:id="@+id/textView7"
                 android:layout_width="353dp"
                 android:layout_height="197dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="10dp"
                 android:background="@color/black"
                 android:textColor="@color/white"
                 android:text="คำอธิบายท่าฝึก:  ท่านี้เน้นการบริหารกล้ามขาส่วนหน้าและส่วนหลัง เพิ่มความแข็งแรง เริ่มด้วยผู้เล่นยืนเท้าแยกห่างกัน จากนั้นเลื่อนบาร์เบลที่เตรียมไว้มาอยู่ตรงไหล่และให้ต่ำกว่าคอเล็กน้อย คอและลำตัวยืดตรงจากนั้นก้าวขาข้างหนึ่งไปข้างหน้าพร้อมกับย่อเข่าลงและหายใจเข้า พยายามอย่าให้เข่ายืนเกินปลายเท้า จากนั้นดึงกลับพร้อมหายใจออก"
@@ -164,28 +161,33 @@
                 android:textSize="25dp"
                 android:textStyle="bold" />
 
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="341dp"
+                android:layout_height="305dp"
+                android:src="@drawable/leg_extension" />
 
-            <ImageView
-                android:id="@+id/imageView19"
-                android:layout_width="match_parent"
-                android:layout_height="218dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="60dp"
-                app:srcCompat="@drawable/leg_extension1" />
 
-            <ImageView
-                android:id="@+id/imageView20"
-                android:layout_width="match_parent"
-                android:layout_height="218dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="60dp"
-                app:srcCompat="@drawable/leg_extension2" />
+            <!--<ImageView-->
+                <!--android:id="@+id/imageView19"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="218dp"-->
+                <!--android:layout_marginEnd="8dp"-->
+                <!--android:layout_marginLeft="8dp"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--android:layout_marginStart="8dp"-->
+                <!--android:layout_marginTop="60dp"-->
+                <!--app:srcCompat="@drawable/leg_extension1" />-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/imageView20"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="218dp"-->
+                <!--android:layout_marginEnd="8dp"-->
+                <!--android:layout_marginLeft="8dp"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--android:layout_marginStart="8dp"-->
+                <!--android:layout_marginTop="60dp"-->
+                <!--app:srcCompat="@drawable/leg_extension2" />-->
 
             <TextView
                 android:id="@+id/textView11"
@@ -194,7 +196,7 @@
                 android:layout_gravity="center"
                 android:background="@color/black"
                 android:textColor="@color/white"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="10dp"
                 android:text="คำอธิบายท่าฝึก: การฝึกด้วยท่า Leg Extension เริ่มต้นจากการ นั่งลงบนเครื่อง โดยให้หลังและก้นนาบสนิทติดกับเบาะ สอดเท้าทั้งสองข้าง ล็อคเข้าไว้กับเบาะรอง มือทั้สองข้างกำด้ามจับเอาไว้ เพื่อไม่ให้ตัวลอยขึ้นจากเบาะ ระหว่างการฝึก เป็นท่าเตรียมฝึกท่า Leg Extension"
                 android:textSize="18dp"
                 android:textStyle="bold" />
@@ -231,28 +233,33 @@
                 android:textSize="25dp"
                 android:textStyle="bold" />
 
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="341dp"
+                android:layout_height="305dp"
+                android:src="@drawable/legpress" />
 
-            <ImageView
-                android:id="@+id/imageView21"
-                android:layout_width="match_parent"
-                android:layout_height="218dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="60dp"
-                app:srcCompat="@drawable/leg_press1" />
 
-            <ImageView
-                android:id="@+id/imageView22"
-                android:layout_width="match_parent"
-                android:layout_height="218dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="60dp"
-                app:srcCompat="@drawable/leg_press2" />
+            <!--<ImageView-->
+                <!--android:id="@+id/imageView21"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="218dp"-->
+                <!--android:layout_marginEnd="8dp"-->
+                <!--android:layout_marginLeft="8dp"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--android:layout_marginStart="8dp"-->
+                <!--android:layout_marginTop="60dp"-->
+                <!--app:srcCompat="@drawable/leg_press1" />-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/imageView22"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="218dp"-->
+                <!--android:layout_marginEnd="8dp"-->
+                <!--android:layout_marginLeft="8dp"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--android:layout_marginStart="8dp"-->
+                <!--android:layout_marginTop="60dp"-->
+                <!--app:srcCompat="@drawable/leg_press2" />-->
 
 
             <TextView
@@ -260,7 +267,7 @@
                 android:layout_width="353dp"
                 android:layout_height="132dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="10dp"
                 android:background="@color/black"
                 android:textColor="@color/white"
                 android:text="คำอธิบายท่าฝึก: การฝึกด้วยท่า Leg Press เริ่มต้นจากการ นอนลงบนเบาะ วางเท้าทั้งสองข้างลงบนแป้นถีบ ด้วยความกว้างประมาณหัวไหล่ วางเท้าต่ำ จากนั้นถีบแป้นออกไป แล้วปลดตัวล็อกออก เป็นท่าเตรียมฝึกท่า Leg Press"
@@ -289,14 +296,21 @@
                 android:textSize="18dp"
                 android:textStyle="bold" />
 
+
             <TextView
-                android:id="@+id/textView18"
+                android:id="@+id/textView42"
                 android:layout_width="353dp"
-                android:layout_height="78dp"
-                android:layout_marginTop="60dp"
-                android:text=""
+                android:layout_height="109dp"
+                android:background="@color/black"
+                android:text=" 3.ออกแรงโดยที่ดันบาร์ขึ้นด้วยหน้าขาจนขาและลำตัวของผู้ฝึกตั้งฉากกลับพื้นเพื่อกลับมาสู่ท่าเตรียมพร้อมกับปล่อยลมหายใจออก นับเป็น1ครั้ง"
+                android:textColor="@color/white"
                 android:textSize="18dp"
                 android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"/>
 
 
         </LinearLayout>

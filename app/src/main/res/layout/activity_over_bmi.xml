@@ -7,6 +7,7 @@
     tools:context=".OverBmiActivity">
 
     <!--BackGround-->
+
     <ImageView
         android:src="@drawable/b8"
         android:scaleType="fitXY"
@@ -24,13 +25,14 @@
             android:layout_height="match_parent">
 
             <!--Content-->
+
             <LinearLayout
-                android:background="#c8ffffff"
-                android:padding="30dp"
-                android:layout_margin="50dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:layout_margin="5dp"
+                android:background="#c8ffffff"
+                android:orientation="vertical"
+                android:padding="3dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -38,10 +40,10 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:textSize="18sp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Name :" />
+                        android:text="Name :"
+                        android:textSize="18sp" />
 
                     <TextView
                         android:id="@+id/txtName"
@@ -56,10 +58,10 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:textSize="18sp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Age :" />
+                        android:text="Age :"
+                        android:textSize="18sp" />
 
                     <TextView
                         android:id="@+id/txtAge"
@@ -74,10 +76,10 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:textSize="18sp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Weight :" />
+                        android:text="Weight :"
+                        android:textSize="18sp" />
 
                     <TextView
                         android:id="@+id/txtWeight"
@@ -86,16 +88,17 @@
 
                 </LinearLayout>
 
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
                     <TextView
-                        android:textSize="18sp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Height :" />
+                        android:text="Height :"
+                        android:textSize="18sp" />
 
                     <TextView
                         android:id="@+id/txtHeight"
@@ -110,10 +113,10 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:textSize="18sp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="BMI :" />
+                        android:text="BMI :"
+                        android:textSize="18sp" />
 
                     <TextView
                         android:id="@+id/txtBmi"
@@ -128,10 +131,10 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:textSize="18sp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Plan :" />
+                        android:text="Plan :"
+                        android:textSize="18sp" />
 
                     <TextView
                         android:id="@+id/txtPlan"
@@ -146,15 +149,16 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:textSize="18sp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Start Date :" />
+                        android:text="Start Date :"
+                        android:textSize="18sp" />
 
                     <TextView
                         android:id="@+id/txtDate"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
+
 
                 </LinearLayout>
 
@@ -166,21 +170,26 @@
                 android:id="@+id/recyclerViewExercise"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"/>
-
-
         </LinearLayout>
-
     </ScrollView>
-
 
 
     <Button
 
         android:id="@+id/btnReset"
+        android:layout_width="212dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:text="Reset Data"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:text="RESET DATA" />
+
+    <Button
+
+        android:id="@+id/btnHome"
+        android:layout_marginLeft="200dp"
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="HOME" />
 
 
 </RelativeLayout>

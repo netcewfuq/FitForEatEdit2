@@ -34,35 +34,40 @@
                 android:textSize="25dp"
                 android:textStyle="bold" />
 
-            <ImageView
-                android:id="@+id/imageView10"
-                android:layout_width="match_parent"
-                android:layout_height="218dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="60dp"
-                app:srcCompat="@drawable/barbell_shoulder_press_1" />
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="341dp"
+                android:layout_height="305dp"
+                android:src="@drawable/bbshoulder" />
+
+            <!--<ImageView-->
+                <!--android:id="@+id/imageView10"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="218dp"-->
+                <!--android:layout_marginEnd="8dp"-->
+                <!--android:layout_marginLeft="8dp"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--android:layout_marginStart="8dp"-->
+                <!--android:layout_marginTop="60dp"-->
+                <!--app:srcCompat="@drawable/barbell_shoulder_press_1" />-->
 
 
-            <ImageView
-                android:id="@+id/imageView11"
-                android:layout_width="match_parent"
-                android:layout_height="218dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="60dp"
-                app:srcCompat="@drawable/barbell_shoulder_press_2" />
+            <!--<ImageView-->
+                <!--android:id="@+id/imageView11"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="218dp"-->
+                <!--android:layout_marginEnd="8dp"-->
+                <!--android:layout_marginLeft="8dp"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--android:layout_marginStart="8dp"-->
+                <!--android:layout_marginTop="60dp"-->
+                <!--app:srcCompat="@drawable/barbell_shoulder_press_2" />-->
 
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="353dp"
                 android:layout_height="162dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="10dp"
                 android:background="@color/black"
                 android:textColor="@color/white"
                 android:text="คำอธิบายท่าฝึก: การฝึกด้วยท่า Barbell Shoulder Press เริ่มต้นจากการ นั่งพิงเบาะ 90 องศา คว่ำมือทั้งสองข้างลง จับบาร์เบลด้วยความกว้างที่กว้างกว่าหัวไหล่เล็กน้อย จากนั้นยกออกมาจากที่พัก ยกบาร์เบลขึ้นเหนือหัว เหยียดแขนออกจนเกือบตึง แต่ไม่ล็อกข้อ เป็นท่าเตรียมฝึกท่า Barbell Shoulder Press"
@@ -101,35 +106,40 @@
                 android:textSize="25dp"
                 android:textStyle="bold" />
 
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="341dp"
+                android:layout_height="305dp"
+                android:src="@drawable/dbshoulderpress" />
 
-            <ImageView
-                android:id="@+id/imageView17"
-                android:layout_width="match_parent"
-                android:layout_height="218dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="60dp"
-                app:srcCompat="@drawable/dumbbell_shoulder_press_1" />
 
-            <ImageView
-                android:id="@+id/imageView18"
-                android:layout_width="match_parent"
-                android:layout_height="218dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="60dp"
-                app:srcCompat="@drawable/dumbbell_shoulder_press_2" />
+            <!--<ImageView-->
+                <!--android:id="@+id/imageView17"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="218dp"-->
+                <!--android:layout_marginEnd="8dp"-->
+                <!--android:layout_marginLeft="8dp"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--android:layout_marginStart="8dp"-->
+                <!--android:layout_marginTop="60dp"-->
+                <!--app:srcCompat="@drawable/dumbbell_shoulder_press_1" />-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/imageView18"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="218dp"-->
+                <!--android:layout_marginEnd="8dp"-->
+                <!--android:layout_marginLeft="8dp"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--android:layout_marginStart="8dp"-->
+                <!--android:layout_marginTop="60dp"-->
+                <!--app:srcCompat="@drawable/dumbbell_shoulder_press_2" />-->
 
             <TextView
                 android:id="@+id/textView7"
                 android:layout_width="353dp"
                 android:layout_height="154dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="10dp"
                 android:background="@color/black"
                 android:textColor="@color/white"
                 android:text="คำอธิบายท่าฝึก: การฝึกด้วยท่า Dumbbell Shoulder Press เริ่มต้นจากการ นั่งพิงเบาะ 90 องศา จับดัมเบล ยกขึ้นเหนือหัว ในลักษณะที่หันฝ่ามือออกไปทางด้านหน้าของลำตัว เหยียดแขนออกจนเกือบตึง แต่ไม่ล็อกข้อ เป็นท่าเตรียมฝึกท่า Dumbbell Shoulder Press"
@@ -169,27 +179,33 @@
                 android:textStyle="bold" />
 
 
-            <ImageView
-                android:id="@+id/imageView19"
-                android:layout_width="match_parent"
-                android:layout_height="218dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="60dp"
-                app:srcCompat="@drawable/dumbbell_lateral_raise_1" />
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="341dp"
+                android:layout_height="305dp"
+                android:src="@drawable/dblateralraise" />
 
-            <ImageView
-                android:id="@+id/imageView20"
-                android:layout_width="match_parent"
-                android:layout_height="218dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="60dp"
-                app:srcCompat="@drawable/dumbbell_lateral_raise_2" />
+
+            <!--<ImageView-->
+                <!--android:id="@+id/imageView19"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="218dp"-->
+                <!--android:layout_marginEnd="8dp"-->
+                <!--android:layout_marginLeft="8dp"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--android:layout_marginStart="8dp"-->
+                <!--android:layout_marginTop="60dp"-->
+                <!--app:srcCompat="@drawable/dumbbell_lateral_raise_1" />-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/imageView20"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="218dp"-->
+                <!--android:layout_marginEnd="8dp"-->
+                <!--android:layout_marginLeft="8dp"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--android:layout_marginStart="8dp"-->
+                <!--android:layout_marginTop="60dp"-->
+                <!--app:srcCompat="@drawable/dumbbell_lateral_raise_2" />-->
 
             <TextView
                 android:id="@+id/textView11"
@@ -198,7 +214,7 @@
                 android:layout_gravity="center"
                 android:background="@color/black"
                 android:textColor="@color/white"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="10dp"
                 android:text="คำอธิบายท่าฝึก: การฝึกด้วยท่า Dumbbell Lateral Raise เริ่มต้นจากการ ยืนตรง วางเท้าทั้งสองข้างห่างกันด้วยความกว้างประมาณหัวไหล่ คว่ำมือทั้งสองข้างลง จับดัมเบลขึ้นมา ปล่อยดัมเบลให้พาดลงบนหน้าขาตามธรรมชาติ เป็นท่าเตรียมฝึกท่า Dumbbell Lateral Raise"
                 android:textSize="18dp"
                 android:textStyle="bold" />
@@ -220,7 +236,7 @@
                 android:layout_height="74dp"
                 android:background="@color/black"
                 android:textColor="@color/white"
-                android:text=" 2.ค ่อยๆคลายกล้ามเนื้อไหล่หน้าข้าง ลดดัมเบลลง เพื่อกลับสู่ท่าเตรียม พร้อมกับสูดลมหายใจเข้าจนสุด นับเป็น 1 ครั้ง"
+                android:text=" 2.ค่อยๆคลายกล้ามเนื้อไหล่หน้าข้าง ลดดัมเบลลง เพื่อกลับสู่ท่าเตรียม พร้อมกับสูดลมหายใจเข้าจนสุด นับเป็น 1 ครั้ง"
                 android:textSize="18dp"
                 android:textStyle="bold" />
 
@@ -236,28 +252,33 @@
                 android:textSize="25dp"
                 android:textStyle="bold" />
 
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="341dp"
+                android:layout_height="305dp"
+                android:src="@drawable/dbfrontraise" />
 
-            <ImageView
-                android:id="@+id/imageView21"
-                android:layout_width="match_parent"
-                android:layout_height="218dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="60dp"
-                app:srcCompat="@drawable/dumbbell_front_raise_1" />
 
-            <ImageView
-                android:id="@+id/imageView22"
-                android:layout_width="match_parent"
-                android:layout_height="218dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="60dp"
-                app:srcCompat="@drawable/dumbbell_front_raise_2" />
+            <!--<ImageView-->
+                <!--android:id="@+id/imageView21"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="218dp"-->
+                <!--android:layout_marginEnd="8dp"-->
+                <!--android:layout_marginLeft="8dp"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--android:layout_marginStart="8dp"-->
+                <!--android:layout_marginTop="60dp"-->
+                <!--app:srcCompat="@drawable/dumbbell_front_raise_1" />-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/imageView22"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="218dp"-->
+                <!--android:layout_marginEnd="8dp"-->
+                <!--android:layout_marginLeft="8dp"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--android:layout_marginStart="8dp"-->
+                <!--android:layout_marginTop="60dp"-->
+                <!--app:srcCompat="@drawable/dumbbell_front_raise_2" />-->
 
 
             <TextView
@@ -265,7 +286,7 @@
                 android:layout_width="353dp"
                 android:layout_height="105dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="10dp"
                 android:background="@color/black"
                 android:textColor="@color/white"
                 android:text="คำอธิบายท่าฝึก: การฝึกด้วยท่า Dumbbell Front Raise เริ่มต้นจากการ ยืนตรง คว่ำมือทั้งสองข้างลง จับดัมเบลวางพาดไว้บนหน้าขา เป็นท่าเตรียมฝึกท่า Dumbbell Front Raise"
@@ -306,27 +327,32 @@
                 android:textSize="25dp"
                 android:textStyle="bold" />
 
-            <ImageView
-                android:id="@+id/imageView23"
-                android:layout_width="match_parent"
-                android:layout_height="218dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="60dp"
-                app:srcCompat="@drawable/seated_bent_over_lateral_raises_1" />
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="341dp"
+                android:layout_height="305dp"
+                android:src="@drawable/seatedbenchover" />
 
-            <ImageView
-                android:id="@+id/imageView24"
-                android:layout_width="match_parent"
-                android:layout_height="218dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="60dp"
-                app:srcCompat="@drawable/seated_bent_over_lateral_raises_2" />
+            <!--<ImageView-->
+                <!--android:id="@+id/imageView23"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="218dp"-->
+                <!--android:layout_marginEnd="8dp"-->
+                <!--android:layout_marginLeft="8dp"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--android:layout_marginStart="8dp"-->
+                <!--android:layout_marginTop="60dp"-->
+                <!--app:srcCompat="@drawable/seated_bent_over_lateral_raises_1" />-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/imageView24"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="218dp"-->
+                <!--android:layout_marginEnd="8dp"-->
+                <!--android:layout_marginLeft="8dp"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--android:layout_marginStart="8dp"-->
+                <!--android:layout_marginTop="60dp"-->
+                <!--app:srcCompat="@drawable/seated_bent_over_lateral_raises_2" />-->
 
 
             <TextView
@@ -334,7 +360,7 @@
                 android:layout_width="353dp"
                 android:layout_height="207dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="10dp"
                 android:background="@color/black"
                 android:text="คำอธิบายท่าฝึก: การฝึกด้วยท่า Seat Bent Over Lateral Raise เริ่มต้นจากการนั่งลงบนเบาะ วางเท้าทั้งสองข้างจนเกือบติดกัน โน้มตัวลงมาโดยพยายามให้หน้าอกติดกับหน้าขา จากนั้นมือแต่ละข้างหยิบดัมเบลขึ้นมา ปล่อยแขนลงมาทางด้านหน้าของลำตัวตามธรรมชาติ ในลักษณะที่มือทั้งสองข้างหันฝ่ามือเข้าหากัน เป็นท่าเตรียมฝึกท่า Seat Bent Over Lateral Raise"
                 android:textColor="@color/white"
@@ -365,7 +391,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="50dp"/>
+                android:layout_marginTop="10dp"/>
 
         </LinearLayout>
     </ScrollView>

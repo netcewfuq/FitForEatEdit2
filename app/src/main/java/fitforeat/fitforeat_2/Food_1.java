@@ -34,8 +34,8 @@ public class Food_1 extends AppCompatActivity {
         setContentView(R.layout.food_1);
         {
         }
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.hide();
+//        ActionBar actionBar = getSupportActionBar();
+//        actionBar.hide();
 
         foodListView = (ListView) findViewById(R.id.listView);
 

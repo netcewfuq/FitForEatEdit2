@@ -35,28 +35,33 @@
                 android:textSize="25dp"
                 android:textStyle="bold" />
 
-            <ImageView
-                android:id="@+id/imageView14"
-                android:layout_width="match_parent"
-                android:layout_height="218dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="60dp"
-                app:srcCompat="@drawable/sit_up1" />
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="341dp"
+                android:layout_height="305dp"
+                android:src="@drawable/situp" />
+
+            <!--<ImageView-->
+                <!--android:id="@+id/imageView14"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="218dp"-->
+                <!--android:layout_marginEnd="8dp"-->
+                <!--android:layout_marginLeft="8dp"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--android:layout_marginStart="8dp"-->
+                <!--android:layout_marginTop="60dp"-->
+                <!--app:srcCompat="@drawable/sit_up1" />-->
 
 
-            <ImageView
-                android:id="@+id/imageView16"
-                android:layout_width="match_parent"
-                android:layout_height="218dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="60dp"
-                app:srcCompat="@drawable/sit_up2" />
+            <!--<ImageView-->
+                <!--android:id="@+id/imageView16"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="218dp"-->
+                <!--android:layout_marginEnd="8dp"-->
+                <!--android:layout_marginLeft="8dp"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--android:layout_marginStart="8dp"-->
+                <!--android:layout_marginTop="60dp"-->
+                <!--app:srcCompat="@drawable/sit_up2" />-->
 
             <TextView
                 android:id="@+id/textView2"
@@ -65,7 +70,7 @@
                 android:layout_gravity="center"
                 android:background="@color/black"
                 android:textColor="@color/white"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="10dp"
                 android:text="คำอธิบายท่าฝึก: การฝึกด้วยท่า Sit Up เริ่มต้นจากการนอนหงายหน้าราบลงบนพื้น ตั้งเข่าชันขึ้น วางเท้าทั้งสองข้างกว้างประมาณหัวไหล่  มือทั้งสองข้างประสานไว้ที่ท้ายทอย เป็นท่าเตรียมฝึกท่า Sit Up"
                 android:textSize="18dp"
                 android:textStyle="bold" />
@@ -120,7 +125,7 @@
                 android:layout_width="353dp"
                 android:layout_height="138dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="10dp"
                 android:background="@color/black"
                 android:textColor="@color/white"
                 android:text="คำอธิบายท่าฝึก: การฝึกด้วยท่า Plank เริ่มต้นจากการนอนคว่ำหน้าลงบนพื้น จากนั้นใช้แขนท่อนปลายเป็นตัวค้ำน้ำหนัก โดยตั้งแขนขึ้นให้ต้นแขนกับแขนท่อนปลายทำมุมตั้งฉากกัน เหยียดขาตรง โดยที่ลำตัวท่อนล่างยังนอนราบไปกับพื้น เพื่อเป็นท่าเตรียมฝึกท่า Plank"
@@ -162,35 +167,40 @@
                 android:textSize="25dp"
                 android:textStyle="bold" />
 
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="341dp"
+                android:layout_height="305dp"
+                android:src="@drawable/dumbbellsidebend" />
 
-            <ImageView
-                android:id="@+id/imageView19"
-                android:layout_width="match_parent"
-                android:layout_height="218dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="60dp"
-                app:srcCompat="@drawable/dumbbell_side_bend1" />
 
-            <ImageView
-                android:id="@+id/imageView20"
-                android:layout_width="match_parent"
-                android:layout_height="218dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="60dp"
-                app:srcCompat="@drawable/dumbbell_side_bend2" />
+            <!--<ImageView-->
+                <!--android:id="@+id/imageView19"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="218dp"-->
+                <!--android:layout_marginEnd="8dp"-->
+                <!--android:layout_marginLeft="8dp"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--android:layout_marginStart="8dp"-->
+                <!--android:layout_marginTop="60dp"-->
+                <!--app:srcCompat="@drawable/dumbbell_side_bend1" />-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/imageView20"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="218dp"-->
+                <!--android:layout_marginEnd="8dp"-->
+                <!--android:layout_marginLeft="8dp"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--android:layout_marginStart="8dp"-->
+                <!--android:layout_marginTop="60dp"-->
+                <!--app:srcCompat="@drawable/dumbbell_side_bend2" />-->
 
             <TextView
                 android:id="@+id/textView11"
                 android:layout_width="353dp"
                 android:layout_height="146dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="10dp"
                 android:textColor="@color/white"
                 android:text="คำอธิบายท่าฝึก: การฝึกด้วยท่า Dumbbell Side Bend เริ่มต้นจากการยืนตัวตรง เท้าทั้งสองข้างวางห่างกันประมาณหัวไหล่ ให้มือข้างใดข้างหนึ่งถือดัมเบลในลักษณะที่ฝ่ามือหันหน้าเข้าหาลำตัว เป็นท่าเตรียมฝึกท่า Dumbbell Side Bend"
                 android:textSize="18dp"
@@ -229,28 +239,33 @@
                 android:textSize="25dp"
                 android:textStyle="bold" />
 
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="341dp"
+                android:layout_height="305dp"
+                android:src="@drawable/cunch" />
 
-            <ImageView
-                android:id="@+id/imageView21"
-                android:layout_width="match_parent"
-                android:layout_height="218dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="60dp"
-                app:srcCompat="@drawable/cunch_1" />
 
-            <ImageView
-                android:id="@+id/imageView22"
-                android:layout_width="match_parent"
-                android:layout_height="218dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="60dp"
-                app:srcCompat="@drawable/cunch_2" />
+            <!--<ImageView-->
+                <!--android:id="@+id/imageView21"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="218dp"-->
+                <!--android:layout_marginEnd="8dp"-->
+                <!--android:layout_marginLeft="8dp"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--android:layout_marginStart="8dp"-->
+                <!--android:layout_marginTop="60dp"-->
+                <!--app:srcCompat="@drawable/cunch_1" />-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/imageView22"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="218dp"-->
+                <!--android:layout_marginEnd="8dp"-->
+                <!--android:layout_marginLeft="8dp"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--android:layout_marginStart="8dp"-->
+                <!--android:layout_marginTop="60dp"-->
+                <!--app:srcCompat="@drawable/cunch_2" />-->
 
 
             <TextView
@@ -260,7 +275,7 @@
                 android:layout_gravity="center"
                 android:background="@color/black"
                 android:textColor="@color/white"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="10dp"
                 android:text="คำอธิบายท่าฝึก: การฝึกด้วยท่า Crunch เริ่มต้นจากการนอนหงายหน้าราบลงบนพื้น นำมือมาประสานกันไว้ที่ท้ายทอย วางเท้าสองข้างห่างกันประมาณหัวไหล่ ตั้งเข่าชันขึ้นมา เป็นท่าเตรียมฝึกท่า Crunch"
                 android:textSize="18dp"
                 android:textStyle="bold" />
@@ -299,27 +314,35 @@
                 android:textSize="25dp"
                 android:textStyle="bold" />
 
-            <ImageView
-                android:id="@+id/imageView23"
-                android:layout_width="match_parent"
-                android:layout_height="218dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="60dp"
-                app:srcCompat="@drawable/rope_crunch1" />
 
-            <ImageView
-                android:id="@+id/imageView24"
-                android:layout_width="match_parent"
-                android:layout_height="218dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="60dp"
-                app:srcCompat="@drawable/rope_crunch2" />
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="341dp"
+                android:layout_height="305dp"
+                android:src="@drawable/cunchrope" />
+
+
+
+            <!--<ImageView-->
+                <!--android:id="@+id/imageView23"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="218dp"-->
+                <!--android:layout_marginEnd="8dp"-->
+                <!--android:layout_marginLeft="8dp"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--android:layout_marginStart="8dp"-->
+                <!--android:layout_marginTop="60dp"-->
+                <!--app:srcCompat="@drawable/rope_crunch1" />-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/imageView24"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="218dp"-->
+                <!--android:layout_marginEnd="8dp"-->
+                <!--android:layout_marginLeft="8dp"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--android:layout_marginStart="8dp"-->
+                <!--android:layout_marginTop="60dp"-->
+                <!--app:srcCompat="@drawable/rope_crunch2" />-->
 
 
             <TextView
@@ -327,7 +350,7 @@
                 android:layout_width="353dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="10dp"
                 android:background="@color/black"
                 android:textColor="@color/white"
                 android:text="คำอธิบายท่าฝึก: การฝึกด้วยท่า Rope Crunch เริ่มต้นจากการปรับรอกให้อยู่ในตำแหน่งที่สูงที่สุด แล้วคล้องด้ามจับเอาไว้ จากนั้นให้นั่งคุกเข่า ห่างจากเคเบิ้ลประมาณ 0.5 เมตร โดยให้นั่งหันหน้าเข้าหาเคเบิ้ลพร้อมกับดึงด้ามจับลงมาไว้บริเวณเหนือหัว เป็นท่าเตรียมฝึกท่า Rope Crunch"
@@ -360,7 +383,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="48dp"
+                android:layout_marginTop="10dp"
                 />
 
         </LinearLayout>

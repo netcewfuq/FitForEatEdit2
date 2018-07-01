@@ -45,8 +45,7 @@ public class Show_Calary_2 extends AppCompatActivity {
             }
 
         });//Button
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.hide();
+
 
         ////////////////
         database = new MyOpenHelper_2(Show_Calary_2.this);

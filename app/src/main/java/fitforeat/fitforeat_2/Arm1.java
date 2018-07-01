@@ -3,11 +3,13 @@ package fitforeat.fitforeat_2;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 public class Arm1 extends AppCompatActivity {
 
@@ -15,11 +17,6 @@ public class Arm1 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_arm1);
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.setTitle("แขน");
-
-
-
 
         ImageView imageView1;
         imageView1 = (ImageView) findViewById(R.id.imageView1);
@@ -63,39 +60,23 @@ public class Arm1 extends AppCompatActivity {
         });
 
 
+        SharedPreferences sharedPreferences = getSharedPreferences("MyBmi", MODE_PRIVATE);
+        final String nameString = sharedPreferences.getString("Name", "");
+
         ImageView imageView5;
         imageView5 = (ImageView) findViewById(R.id.imageView5);
         imageView5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-
-                AlertDialog.Builder dialog = new AlertDialog.Builder(Arm1.this);
-                dialog.setTitle("Exit");
-                dialog.setIcon(R.mipmap.ic_launcher);
-                dialog.setCancelable(true);
-                dialog.setMessage("Do you want to exit?");
-                dialog.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog, int which) {
-                        Intent intent = new Intent(Intent.ACTION_MAIN);
-                        intent.addCategory(Intent.CATEGORY_HOME);
-                        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                        startActivity(intent);
-                    }
-                });
-
-                dialog.setNegativeButton("No", new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog, int which) {
-                        dialog.cancel();
-                    }
-                });
-
-                dialog.show();
+                if (nameString.isEmpty()) {
+                    Toast.makeText(getApplicationContext(), "ยังไม่มีข้อมูล กรุณากรอกข้อมูล", Toast.LENGTH_LONG).show();
+                    Intent go = new Intent(getApplicationContext(), Main2Activity_home.class);
+                    startActivityForResult(go, 0);
+                } else {
+                    Intent go = new Intent(getApplicationContext(), OverBmiActivity.class);
+                    startActivityForResult(go, 0);
+                }
             }
-
-
-
-
-        }); /////////////// exitApp
+        });
     }
 }

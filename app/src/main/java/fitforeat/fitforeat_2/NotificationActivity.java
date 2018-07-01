@@ -2,15 +2,18 @@ package fitforeat.fitforeat_2;
 
 import android.app.Notification;
 import android.app.NotificationManager;
+import android.app.PendingIntent;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.media.RingtoneManager;
 import android.net.Uri;
+import android.app.NotificationManager;
 import android.support.v4.app.NotificationCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.View;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -32,7 +35,7 @@ public class NotificationActivity extends AppCompatActivity {
         MyConstant myConstant = new MyConstant();
         myConstant.setaBoolean(false);
 
-        showNoti();
+      showNoti();
 
         getValue();
 
@@ -40,7 +43,7 @@ public class NotificationActivity extends AppCompatActivity {
 
         showView();
 
-        showExercise();
+    showExercise();
 
 
     }   // Main Method
@@ -121,16 +124,21 @@ public class NotificationActivity extends AppCompatActivity {
     private void showNoti() {
 
         NotificationCompat.Builder builder = new NotificationCompat.Builder(this);
-        builder.setSmallIcon(R.drawable.ic_action_noti);
+        Intent intent = new  Intent  (this, NotificationActivity.class);
+        PendingIntent pintent  = PendingIntent.getActivity(this, (int) System.currentTimeMillis(), intent, 0);
+
+        builder.setSmallIcon(R.mipmap.ic_launcher);
         builder.setTicker("FitForEat Alert");
         builder.setWhen(System.currentTimeMillis());
-        builder.setContentTitle("Please Exercise");
-        builder.setContentText("Get Up Exercise");
+        builder.setContentTitle("ออกกำลังกันเถอะ");
+        builder.setContentText("เราจะออกกำลังกายไปด้วยกัน FITFOREAT");
+        builder.setContentIntent(pintent);
         builder.setAutoCancel(false);
 
 
-        Uri soundUri = RingtoneManager.getDefaultUri(Notification.DEFAULT_SOUND);
-        builder.setSound(soundUri);
+//        Uri soundUri = RingtoneManager.getDefaultUri(Notification.DEFAULT_ALL);
+        Uri notif = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
+        builder.setSound(notif);
 
         android.app.Notification notification = builder.build();
 

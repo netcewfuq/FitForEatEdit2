@@ -33,11 +33,12 @@ public class OverBmiActivity extends AppCompatActivity {
     private Calendar currentCalendar, notiCalendar, startCalendar;
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_over_bmi);
+
+
 
 //        Initial View
         initialView();
@@ -54,9 +55,13 @@ public class OverBmiActivity extends AppCompatActivity {
 //        Reset Controller
         resetController();
 
+//       BACK TO HOME
+        backtoHOME();
+
+
 //        Check Notification
         MyConstant myConstant = new MyConstant();
-        Log.d("23JuneV1", "boolene --> " + myConstant.isaBoolean());
+        Log.d("23JuneV1", "boolean --> " + myConstant.isaBoolean());
         if (myConstant.isaBoolean()) {
             checkNotification();
         }
@@ -82,7 +87,7 @@ public class OverBmiActivity extends AppCompatActivity {
 
         int amountInt = 7;
 
-        if (planString.equals("Hard")) {
+        if (planString.equals("Easy")) {
             amountInt = 7;
         } else if (planString.equals("Normal")) {
             amountInt = 15;
@@ -90,7 +95,7 @@ public class OverBmiActivity extends AppCompatActivity {
             amountInt = 30;
         }
 
-        for (int i=0; i<amountInt; i+=1) {
+        for (int i = 0; i < amountInt; i += 1) {
             titleStringList.add(titleStrings[i]);
             detailStringList.add(detailStrings[i]);
             iconIntegerList.add(ints[i]);
@@ -128,6 +133,7 @@ public class OverBmiActivity extends AppCompatActivity {
         notiCalendar = Calendar.getInstance();
         startCalendar = Calendar.getInstance();
 
+//
         String[] strings = startDateString.split("-");
         startCalendar.set(Calendar.DAY_OF_MONTH, Integer.parseInt(strings[0]));
         startCalendar.set(Calendar.MONTH, Integer.parseInt(strings[1]));
@@ -140,17 +146,19 @@ public class OverBmiActivity extends AppCompatActivity {
         notiCalendar.set(Calendar.MINUTE, 0);
         notiCalendar.set(Calendar.SECOND, 0);
 
+
 //        Hard Status
-        if (planString.equals("Hard")) {
 
-            int resultInt = currentCalendar.get(Calendar.DAY_OF_YEAR) - startCalendar.get(Calendar.DAY_OF_YEAR);
-            if (resultInt <= 7) {
+           if (planString.equals("Hard")) {
+          int resultInt = currentCalendar.get(Calendar.DAY_OF_YEAR) - startCalendar.get(Calendar.DAY_OF_YEAR);
+           if (resultInt <= 30) {
 
-                sentValueToReceiver(notiCalendar);
+               sentValueToReceiver(notiCalendar);
 
-            }   // if
+         }
 
-        }   // if
+       }
+
 
 //        Normal Status;
         if (planString.equals("Normal")) {
@@ -160,26 +168,30 @@ public class OverBmiActivity extends AppCompatActivity {
 
                 sentValueToReceiver(notiCalendar);
 
-            }   // if
+            }
 
         }
 
-//        Easy Status
+ //       Easy Status
         if (planString.equals("Easy")) {
 
             int resultInt = currentCalendar.get(Calendar.DAY_OF_YEAR) - startCalendar.get(Calendar.DAY_OF_YEAR);
-            if (resultInt <= 30) {
+            if (resultInt <= 7) {
 
-                sentValueToReceiver(notiCalendar);
-
-            }   // if
+            sentValueToReceiver(notiCalendar);
 
         }
+
+    }
+
+
 
         Log.d("20JuneV1", "notiCalendar ==> " + notiCalendar.getTime().toString());
         sentValueToReceiver(notiCalendar);
 
     }
+
+
 
 
     private void sentValueToReceiver(Calendar calendar) {
@@ -188,15 +200,49 @@ public class OverBmiActivity extends AppCompatActivity {
         Random random = new Random();
         intRandom = random.nextInt(1000);
 
-        Intent intent = new Intent(getBaseContext(), MyReceiver.class);
-        PendingIntent pendingIntent = PendingIntent.getBroadcast(getBaseContext(),
-                intRandom, intent, 0);
-        AlarmManager alarmManager = (AlarmManager) getSystemService(Context.ALARM_SERVICE);
-        alarmManager.set(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis(),
-                pendingIntent);
+//        final int _id = (int) System.currentTimeMillis();
+//
+//        Intent intent = new Intent(getBaseContext(), MyReceiver.class);
+//        PendingIntent pendingIntent = PendingIntent.getBroadcast(getBaseContext(), _id, intent, 0);
+//
+//        AlarmManager alarmManager = (AlarmManager)getSystemService(Context.ALARM_SERVICE);
+//        alarmManager.set(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis(), pendingIntent);
 
+        Intent intent = new Intent(getBaseContext(), MyReceiver.class);
+        PendingIntent pendingIntent = PendingIntent.getBroadcast(getBaseContext(), intRandom, intent, 0);
+
+        AlarmManager alarmManager = (AlarmManager) getSystemService(Context.ALARM_SERVICE);
+        alarmManager.set(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis(), pendingIntent);
 
     }   // sentValue
+
+    private void backtoHOME() {
+        Button button = findViewById(R.id.btnHome);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                AlertDialog.Builder dialog = new AlertDialog.Builder(OverBmiActivity.this);
+                dialog.setTitle("กลับหน้าหลัก ?");
+                dialog.setIcon(R.mipmap.ic_launcher);
+                dialog.setCancelable(true);
+                dialog.setPositiveButton("ใช่", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+
+                        startActivity(new Intent(OverBmiActivity.this, Main2Activity_home.class));
+                        finish();
+                    }
+                });
+                dialog.setNegativeButton("ไม่", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.cancel();
+                    }
+                });
+
+                dialog.show();
+            }
+        });
+    }
 
 
     private void resetController() {

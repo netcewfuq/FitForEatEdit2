@@ -34,28 +34,34 @@
                 android:textSize="25dp"
                 android:textStyle="bold" />
 
-            <ImageView
-                android:id="@+id/imageView14"
-                android:layout_width="match_parent"
-                android:layout_height="218dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="60dp"
-                app:srcCompat="@drawable/chest1_bb" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="341dp"
+                android:layout_height="305dp"
+                android:src="@drawable/chestbb" />
+
+            <!--<ImageView-->
+                <!--android:id="@+id/imageView14"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="218dp"-->
+                <!--android:layout_marginEnd="8dp"-->
+                <!--android:layout_marginLeft="8dp"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--android:layout_marginStart="8dp"-->
+                <!--android:layout_marginTop="60dp"-->
+                <!--app:srcCompat="@drawable/chest1_bb" />-->
 
 
-            <ImageView
-                android:id="@+id/imageView16"
-                android:layout_width="match_parent"
-                android:layout_height="218dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="60dp"
-                app:srcCompat="@drawable/chest2_bb" />
+            <!--<ImageView-->
+                <!--android:id="@+id/imageView16"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="218dp"-->
+                <!--android:layout_marginEnd="8dp"-->
+                <!--android:layout_marginLeft="8dp"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--android:layout_marginStart="8dp"-->
+                <!--android:layout_marginTop="60dp"-->
+                <!--app:srcCompat="@drawable/chest2_bb" />-->
 
             <TextView
                 android:id="@+id/textView2"
@@ -64,7 +70,7 @@
                 android:layout_gravity="center"
                 android:textColor="@color/white"
                 android:background="@color/black"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="10dp"
                 android:text="คำอธิบายท่าฝึก: ท่านี้ถือเป็นท่าหลักในการสร้างกล้ามเนื้อบริเวณหน้าอก สามารถช่วยสร้างกล้ามเนื้อหน้าอกโดยรวมได้เป็นอย่างดี เพื่อนๆสามารถฝึกได้ดังนี้ครับ"
                 android:textSize="18dp"
                 android:textStyle="bold" />
@@ -111,35 +117,40 @@
                 android:textColor="@color/white"
                 android:textStyle="bold" />
 
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="341dp"
+                android:layout_height="305dp"
+                android:src="@drawable/chestdip" />
 
-            <ImageView
-                android:id="@+id/imageView17"
-                android:layout_width="match_parent"
-                android:layout_height="218dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="60dp"
-                app:srcCompat="@drawable/chest1_dip" />
 
-            <ImageView
-                android:id="@+id/imageView18"
-                android:layout_width="match_parent"
-                android:layout_height="218dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="60dp"
-                app:srcCompat="@drawable/chest2_dip" />
+            <!--<ImageView-->
+                <!--android:id="@+id/imageView17"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="218dp"-->
+                <!--android:layout_marginEnd="8dp"-->
+                <!--android:layout_marginLeft="8dp"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--android:layout_marginStart="8dp"-->
+                <!--android:layout_marginTop="60dp"-->
+                <!--app:srcCompat="@drawable/chest1_dip" />-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/imageView18"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="218dp"-->
+                <!--android:layout_marginEnd="8dp"-->
+                <!--android:layout_marginLeft="8dp"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--android:layout_marginStart="8dp"-->
+                <!--android:layout_marginTop="60dp"-->
+                <!--app:srcCompat="@drawable/chest2_dip" />-->
 
             <TextView
                 android:id="@+id/textView7"
                 android:layout_width="353dp"
                 android:layout_height="96dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="10dp"
                 android:background="@color/black"
                 android:textColor="@color/white"
                 android:text="คำอธิบายท่าฝึก: การฝึกด้วยท่า Dips For Chest เริ่มต้นจากการยกตัวให้ลอยบนบาร์คู่ เหยียดแขนจนตึง แต่ไม่ล็อกข้อศอก แอ่นอก เป็นท่าเตรียมฝึกท่า Dips For Chest"
@@ -178,35 +189,40 @@
                 android:textSize="25dp"
                 android:textStyle="bold" />
 
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="341dp"
+                android:layout_height="305dp"
+                android:src="@drawable/chestdumbbell" />
 
-            <ImageView
-                android:id="@+id/imageView19"
-                android:layout_width="match_parent"
-                android:layout_height="218dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="60dp"
-                app:srcCompat="@drawable/dumbell1" />
 
-            <ImageView
-                android:id="@+id/imageView20"
-                android:layout_width="match_parent"
-                android:layout_height="218dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="60dp"
-                app:srcCompat="@drawable/dumbell2" />
+            <!--<ImageView-->
+                <!--android:id="@+id/imageView19"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="218dp"-->
+                <!--android:layout_marginEnd="8dp"-->
+                <!--android:layout_marginLeft="8dp"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--android:layout_marginStart="8dp"-->
+                <!--android:layout_marginTop="60dp"-->
+                <!--app:srcCompat="@drawable/dumbell1" />-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/imageView20"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="218dp"-->
+                <!--android:layout_marginEnd="8dp"-->
+                <!--android:layout_marginLeft="8dp"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--android:layout_marginStart="8dp"-->
+                <!--android:layout_marginTop="60dp"-->
+                <!--app:srcCompat="@drawable/dumbell2" />-->
 
             <TextView
                 android:id="@+id/textView11"
                 android:layout_width="353dp"
                 android:layout_height="158dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="10dp"
                 android:background="@color/black"
                 android:textColor="@color/white"
                 android:text="คำอธิบายท่าฝึก: การฝึกด้วยท่า Dumbbell Bench Press เริ่มต้นจากการนอนหงายหน้าลงบนเบาะ เท้าทั้งสองข้างวางสนิทกับพื้น จับดัมเบลยกขึ้นในลักษณะที่แขนตึง แต่ไม่ล็อกข้อศอก โดยหันฝ่ามือออกไปทางด้านหน้าของลำตัว เป็นท่าเตรียมฝึกท่า Dumbbell Bench Press"
@@ -246,28 +262,33 @@
                 android:textSize="25dp"
                 android:textStyle="bold" />
 
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="341dp"
+                android:layout_height="305dp"
+                android:src="@drawable/inclinechestdb" />
 
-            <ImageView
-                android:id="@+id/imageView21"
-                android:layout_width="match_parent"
-                android:layout_height="218dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="60dp"
-                app:srcCompat="@drawable/incline_fly1" />
 
-            <ImageView
-                android:id="@+id/imageView22"
-                android:layout_width="match_parent"
-                android:layout_height="218dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="60dp"
-                app:srcCompat="@drawable/incline_fly2" />
+            <!--<ImageView-->
+                <!--android:id="@+id/imageView21"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="218dp"-->
+                <!--android:layout_marginEnd="8dp"-->
+                <!--android:layout_marginLeft="8dp"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--android:layout_marginStart="8dp"-->
+                <!--android:layout_marginTop="60dp"-->
+                <!--app:srcCompat="@drawable/incline_fly1" />-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/imageView22"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="218dp"-->
+                <!--android:layout_marginEnd="8dp"-->
+                <!--android:layout_marginLeft="8dp"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--android:layout_marginStart="8dp"-->
+                <!--android:layout_marginTop="60dp"-->
+                <!--app:srcCompat="@drawable/incline_fly2" />-->
 
 
             <TextView
@@ -275,7 +296,7 @@
                 android:layout_width="353dp"
                 android:layout_height="144dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="10dp"
                 android:background="@color/black"
                 android:textColor="@color/white"
                 android:text="คำอธิบายท่าฝึก: การฝึกด้วยท่า Incline Dumbbell Fly เริ่มต้นจากการนอนหงายหน้าลงบนเบาะเอียงขึ้น 45 องศา จับดัมเบล โดยหันฝ่ามือทั้งสองข้างเข้าหากัน ดันขึ้นในลักษณะที่แขนงอเล็กน้อยเป็นท่าเตรียมฝึกท่า Incline Dumbbell Fly"
@@ -308,7 +329,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="80dp"/>
+                android:layout_marginTop="10dp"/>
 
         </LinearLayout>
     </ScrollView>
